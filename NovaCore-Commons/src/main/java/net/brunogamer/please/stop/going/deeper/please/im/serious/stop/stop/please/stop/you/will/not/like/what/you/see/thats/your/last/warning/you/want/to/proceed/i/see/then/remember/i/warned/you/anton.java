@@ -12,7 +12,6 @@ public class anton {
     }
     public anton anton(anton anton, anton anton1) {
         return anton(this, anton, anton1);
-
     }
     public anton anton(anton anton, anton anton1, anton anton2) {
         return anton(this, anton, anton1, anton2);
