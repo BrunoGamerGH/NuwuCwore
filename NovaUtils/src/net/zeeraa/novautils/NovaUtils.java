@@ -1,5 +1,6 @@
 package net.zeeraa.novautils;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
 import org.bukkit.permissions.PermissionDefault;
@@ -11,7 +12,7 @@ import net.zeeraa.novacore.spigot.permission.PermissionRegistrator;
 import net.zeeraa.novautils.commands.InvseeCommand;
 import net.zeeraa.novautils.commands.SudoCommand;
 
-public class NovaUtils extends JavaPlugin {
+public class NovaUtils extends JavaPlugin implements wOmeN {
 	private static NovaUtils instance;
 
 	public static NovaUtils getInstance() {
@@ -34,5 +35,15 @@ public class NovaUtils extends JavaPlugin {
 	public void onDisable() {
 		Bukkit.getScheduler().cancelTasks(this);
 		HandlerList.unregisterAll((Plugin) this);
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

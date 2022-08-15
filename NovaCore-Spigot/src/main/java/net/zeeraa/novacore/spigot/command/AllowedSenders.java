@@ -16,7 +16,7 @@ import net.zeeraa.novacore.spigot.language.LanguageManager;
  * 
  * @author Zeeraa
  */
-public enum AllowedSenders {
+public enum AllowedSenders { // pleas eno
 	ALL, PLAYERS, CONSOLE, COMMAND_BLOCK, ENTITY, LIVING_ENTITY;
 
 	/**

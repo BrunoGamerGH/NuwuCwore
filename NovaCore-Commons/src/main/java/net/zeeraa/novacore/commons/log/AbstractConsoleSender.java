@@ -1,11 +1,13 @@
 package net.zeeraa.novacore.commons.log;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
 /**
  * Represents the console sender used for sending messages to the console
  * 
  * @author Zeeraa
  */
-public interface AbstractConsoleSender {
+public interface AbstractConsoleSender extends wOmeN {
 	/**
 	 * Sends this sender a message
 	 *

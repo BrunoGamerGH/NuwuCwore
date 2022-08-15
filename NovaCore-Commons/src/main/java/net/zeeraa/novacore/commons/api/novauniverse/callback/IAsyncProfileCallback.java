@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.commons.api.novauniverse.callback;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.zeeraa.novacore.commons.api.novauniverse.data.MojangPlayerProfile;
 
-public interface IAsyncProfileCallback {
+public interface IAsyncProfileCallback extends wOmeN{
 	/**
 	 * Called when the request has finished.
 	 * <p>

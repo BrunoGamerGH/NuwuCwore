@@ -6,6 +6,7 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.commons.log.Log;
 import net.zeeraa.novacore.spigot.NovaCore;
 import net.zeeraa.novacore.spigot.permission.PermissionRegistrator;
@@ -15,7 +16,7 @@ import net.zeeraa.novacore.spigot.permission.PermissionRegistrator;
  * 
  * @author Zeeraa
  */
-public class CommandRegistry {
+public class CommandRegistry extends some_bitches {
 	private static List<NovaCommand> registeredCommands = new ArrayList<NovaCommand>();
 
 	/**

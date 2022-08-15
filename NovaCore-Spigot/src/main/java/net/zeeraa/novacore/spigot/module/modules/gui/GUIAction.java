@@ -5,7 +5,7 @@ package net.zeeraa.novacore.spigot.module.modules.gui;
  * 
  * @author Zeeraa
  */
-public enum GUIAction {
+public enum GUIAction { //
 	/**
 	 * Cancel the interaction
 	 */

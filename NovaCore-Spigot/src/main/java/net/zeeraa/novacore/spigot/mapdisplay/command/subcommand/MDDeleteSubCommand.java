@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.mapdisplay.command.subcommand;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -11,7 +12,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 import net.zeeraa.novacore.spigot.mapdisplay.MapDisplay;
 import net.zeeraa.novacore.spigot.mapdisplay.MapDisplayManager;
 
-public class MDDeleteSubCommand extends NovaSubCommand {
+public class MDDeleteSubCommand extends NovaSubCommand implements wOmeN {
 
 	public MDDeleteSubCommand() {
 		super("delete");

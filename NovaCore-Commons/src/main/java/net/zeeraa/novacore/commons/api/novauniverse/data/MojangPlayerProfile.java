@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import net.zeeraa.novacore.commons.utils.UUIDUtils;
 
-public class MojangPlayerProfile {
+public class MojangPlayerProfile extends some_bitches {
 	private String id;
 	private UUID uuid;
 	private String name;

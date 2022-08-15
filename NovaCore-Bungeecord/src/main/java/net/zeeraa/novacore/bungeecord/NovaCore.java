@@ -3,6 +3,7 @@ package net.zeeraa.novacore.bungeecord;
 import java.io.File;
 import java.io.IOException;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.apache.commons.io.FileUtils;
 
 import net.md_5.bungee.api.ProxyServer;
@@ -21,7 +22,8 @@ import net.zeeraa.novacore.commons.ServerType;
 import net.zeeraa.novacore.commons.log.Log;
 import net.zeeraa.novacore.commons.log.LogLevel;
 
-public class NovaCore extends Plugin {
+
+public class NovaCore extends Plugin implements wOmeN {
 	private static NovaCore instance;
 
 	public static NovaCore getInstance() {
@@ -93,5 +95,15 @@ public class NovaCore extends Plugin {
 	public void onDisable() {
 		ProxyServer.getInstance().getPluginManager().unregisterListeners((Plugin) this);
 		ProxyServer.getInstance().getScheduler().cancel(this);
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

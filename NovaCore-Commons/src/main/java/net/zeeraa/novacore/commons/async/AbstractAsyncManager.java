@@ -1,6 +1,8 @@
 package net.zeeraa.novacore.commons.async;
 
-public interface AbstractAsyncManager {
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
+public interface AbstractAsyncManager extends wOmeN {
 	/**
 	 * Run a runnable asynchronous
 	 * 

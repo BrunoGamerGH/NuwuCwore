@@ -1,11 +1,12 @@
 package net.zeeraa.novacore.spigot.abstraction.commons;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import net.zeeraa.novacore.commons.async.AbstractAsyncManager;
 
-public class BukkitAsyncManager implements AbstractAsyncManager {
+public class BukkitAsyncManager extends some_bitches implements AbstractAsyncManager {
 	private Plugin ownerPlugin;
 
 	public BukkitAsyncManager(Plugin ownerPlugin) {

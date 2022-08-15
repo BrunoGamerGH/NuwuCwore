@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.command.commands.novacore;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -18,7 +19,7 @@ import net.zeeraa.novacore.spigot.command.commands.novacore.whereami.NovaCoreSub
  * 
  * @author Zeeraa
  */
-public class NovaCoreCommand extends NovaCommand {
+public class NovaCoreCommand extends NovaCommand implements wOmeN {
 
 	public NovaCoreCommand() {
 		super("novacore", NovaCore.getInstance());

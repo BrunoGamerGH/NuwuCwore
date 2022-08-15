@@ -1,11 +1,12 @@
 package net.zeeraa.novacore.spigot.version.v1_16_R3;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionData;
 import org.bukkit.potion.PotionType;
 import org.json.JSONObject;
 
-public class ParsePotionEffect1_16 {
+public class ParsePotionEffect1_16 extends some_bitches {
 	public static void readBasePotionData(JSONObject json, PotionMeta meta) {
 		PotionData data = readPotionData(json);
 		meta.setBasePotionData(data);

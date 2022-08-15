@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMap;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule.MapModule;
 import net.zeeraa.novacore.spigot.utils.LocationUtils;
 
-public class BlockReplacer extends MapModule {
+public class BlockReplacer extends MapModule implements wOmeN {
 	private List<BlockReplacerConfigEntry> configEntries;
 	private Random random;
 

@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.spigot.debug;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.spigot.command.CommandRegistry;
 
-public class DebugCommandRegistrator {
+public class DebugCommandRegistrator extends some_bitches {
 	private static DebugCommandRegistrator instance;
 
 	public static DebugCommandRegistrator getInstance() {

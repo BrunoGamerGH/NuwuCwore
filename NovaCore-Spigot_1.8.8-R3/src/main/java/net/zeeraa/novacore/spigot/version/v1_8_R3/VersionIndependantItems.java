@@ -1,10 +1,11 @@
 package net.zeeraa.novacore.spigot.version.v1_8_R3;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.material.MaterialData;
 
-public class VersionIndependantItems extends net.zeeraa.novacore.spigot.abstraction.VersionIndependentItems {
+public class VersionIndependantItems extends net.zeeraa.novacore.spigot.abstraction.VersionIndependentItems implements wOmeN {
 	@Override
 	public ItemStack getPlayerSkull() {
 		return new ItemStack(Material.SKULL_ITEM, 1, (byte) 3);

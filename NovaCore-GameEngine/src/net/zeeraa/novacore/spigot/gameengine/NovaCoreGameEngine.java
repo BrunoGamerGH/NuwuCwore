@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine;
 import java.io.File;
 import java.io.IOException;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -41,7 +42,7 @@ import net.zeeraa.novacore.spigot.language.LanguageReader;
 import net.zeeraa.novacore.spigot.module.ModuleManager;
 import net.zeeraa.novacore.spigot.novaplugin.NovaPlugin;
 
-public class NovaCoreGameEngine extends NovaPlugin {
+public class NovaCoreGameEngine extends NovaPlugin implements wOmeN {
 	private static NovaCoreGameEngine instance;
 
 	public static NovaCoreGameEngine getInstance() {
@@ -116,5 +117,15 @@ public class NovaCoreGameEngine extends NovaPlugin {
 		}
 
 		Log.success("NovaCoreGameEngine", "Game engine enabled");
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

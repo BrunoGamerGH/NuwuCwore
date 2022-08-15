@@ -3,6 +3,7 @@ package net.zeeraa.novacore.commons.utils;
 import java.io.IOException;
 import java.io.InputStream;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.apache.commons.codec.digest.DigestUtils;
 
 /**
@@ -10,7 +11,7 @@ import org.apache.commons.codec.digest.DigestUtils;
  * 
  * @author Zeeraa
  */
-public class HashUtils {
+public class HashUtils extends some_bitches {
 	/**
 	 * Get md5 from input stream
 	 * 

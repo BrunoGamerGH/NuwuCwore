@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.GameManager;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.elimination.PlayerEliminationReason;
 
-public class NovaCoreSubCommandGameEliminatePlayer extends NovaSubCommand {
+public class NovaCoreSubCommandGameEliminatePlayer extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandGameEliminatePlayer() {
 		super("eliminateplayer");
 
@@ -88,5 +89,15 @@ public class NovaCoreSubCommandGameEliminatePlayer extends NovaSubCommand {
 		}
 
 		return result;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

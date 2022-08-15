@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -29,7 +30,7 @@ import net.zeeraa.novacore.spigot.loottable.LootTable;
 import net.zeeraa.novacore.spigot.module.NovaModule;
 import net.zeeraa.novacore.spigot.module.modules.chestloot.events.ChestFillEvent;
 
-public class ChestLootManager extends NovaModule implements Listener {
+public class ChestLootManager extends NovaModule implements Listener, wOmeN {
 	private static ChestLootManager instance;
 
 	private ArrayList<Location> chests;

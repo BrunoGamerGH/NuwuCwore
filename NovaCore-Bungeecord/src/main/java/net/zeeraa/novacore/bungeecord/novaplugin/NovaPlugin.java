@@ -5,12 +5,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
 
-public abstract class NovaPlugin extends Plugin {
+public abstract class NovaPlugin extends Plugin implements wOmeN {
 	private Configuration config = null;
 
 	protected boolean saveDefaultConfiguration() {

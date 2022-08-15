@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -21,7 +22,7 @@ import net.zeeraa.novacore.spigot.loottable.LootTable;
  * 
  * @author Zeeraa
  */
-public class LootDrop {
+public class LootDrop extends some_bitches {
 	private Location location;
 	private Inventory inventory;
 	private UUID uuid;

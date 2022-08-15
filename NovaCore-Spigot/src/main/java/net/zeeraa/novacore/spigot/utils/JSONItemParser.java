@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Color;
 import org.bukkit.FireworkEffect;
 import org.bukkit.Material;
@@ -21,7 +22,7 @@ import org.json.JSONObject;
 
 import net.md_5.bungee.api.ChatColor;
 
-public class JSONItemParser {
+public class JSONItemParser extends some_bitches {
 	/**
 	 * Convert a {@link JSONObject} to an {@link ItemStack}
 	 * 

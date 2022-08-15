@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.abstraction;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandMap;
 
@@ -8,7 +9,7 @@ import org.bukkit.command.CommandMap;
  * 
  * @author Zeeraa
  */
-public interface CommandRegistrator {
+public interface CommandRegistrator extends wOmeN {
 	/**
 	 * Register a command
 	 * 

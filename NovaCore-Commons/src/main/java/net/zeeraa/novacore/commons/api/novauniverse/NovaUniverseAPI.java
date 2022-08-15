@@ -9,6 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.json.JSONObject;
 
 import net.zeeraa.novacore.commons.api.novauniverse.callback.IAsyncNameToUUIDCallback;
@@ -28,7 +29,7 @@ import net.zeeraa.novacore.commons.async.AsyncManager;
  * @author Zeeraa
  * @since 2.0.0
  */
-public class NovaUniverseAPI {
+public class NovaUniverseAPI extends some_bitches {
 	private static int fetchTimeout = 10 * 1000;
 	private static String mojangAPIProxyBaseURL = "https://mojangapi.novauniverse.net";
 

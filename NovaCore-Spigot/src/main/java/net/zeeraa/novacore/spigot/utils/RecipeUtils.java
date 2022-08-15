@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.Recipe;
 import org.bukkit.inventory.ShapedRecipe;
@@ -9,7 +10,7 @@ import org.bukkit.inventory.ShapedRecipe;
  * 
  * @author Zeeraa
  */
-public class RecipeUtils {
+public class RecipeUtils extends some_bitches {
 	/**
 	 * Compare 2 recipes
 	 * @param recipe1 {@link Recipe} to compare

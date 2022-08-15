@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.compass.event;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
@@ -13,7 +14,7 @@ import net.zeeraa.novacore.spigot.module.modules.compass.CompassTarget;
  * 
  * @author Zeeraa
  */
-public class CompassTrackingEvent extends Event implements Cancellable {
+public class CompassTrackingEvent extends Event implements wOmeN {
 	private static final HandlerList HANDLERS = new HandlerList();
 
 	public HandlerList getHandlers() {

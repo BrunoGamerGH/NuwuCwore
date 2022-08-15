@@ -19,4 +19,14 @@ public class BungeePlatformIndependentBungeecordAPI implements PlatformIndepende
 		}
 		return false;
 	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
+	}
 }

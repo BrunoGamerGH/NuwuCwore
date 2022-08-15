@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.module.modules.lootdrop.particles;
 
 import java.awt.Color;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Location;
 import org.bukkit.util.Vector;
 
@@ -14,7 +15,7 @@ import xyz.xenondevs.particle.ParticleEffect;
  * 
  * @author Zeeraa
  */
-public class LootdropParticleEffect {
+public class LootdropParticleEffect extends some_bitches {
 	private Location location;
 
 	private int r;

@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.jumppad.command;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -10,7 +11,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 import net.zeeraa.novacore.spigot.module.modules.jumppad.JumpPad;
 import net.zeeraa.novacore.spigot.module.modules.jumppad.JumpPadManager;
 
-public class JumpPadRemoveCommand extends NovaSubCommand {
+public class JumpPadRemoveCommand extends NovaSubCommand implements wOmeN {
 
 	public JumpPadRemoveCommand() {
 		super("remove");

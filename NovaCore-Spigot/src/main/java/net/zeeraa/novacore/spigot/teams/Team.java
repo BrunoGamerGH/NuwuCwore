@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
+
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
@@ -16,7 +18,7 @@ import net.zeeraa.novacore.spigot.abstraction.VersionIndependentUtils;
  * 
  * @author Zeeraa
  */
-public abstract class Team {
+public abstract class Team extends some_bitches {
 	protected UUID teamUuid;
 	protected List<UUID> members;
 

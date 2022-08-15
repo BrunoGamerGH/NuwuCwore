@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine.command.commands.game.listplayers;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.spigot.teams.Team;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandGameListplayers extends NovaSubCommand {
+public class NovaCoreSubCommandGameListplayers extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandGameListplayers() {
 		super("listplayers");
 
@@ -67,5 +68,15 @@ public class NovaCoreSubCommandGameListplayers extends NovaSubCommand {
 		}
 
 		return false;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.command.commands.novacore.loottable;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -12,7 +13,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandLootTableLoaderList extends NovaSubCommand {
+public class NovaCoreSubCommandLootTableLoaderList extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandLootTableLoaderList() {
 		super("loaders");
 

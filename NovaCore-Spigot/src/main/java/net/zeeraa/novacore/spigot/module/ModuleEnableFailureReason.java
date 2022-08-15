@@ -6,7 +6,7 @@ package net.zeeraa.novacore.spigot.module;
  * @since 1.0
  * @author Zeeraa
  */
-public enum ModuleEnableFailureReason {
+public enum ModuleEnableFailureReason { // im bored of doing this to all enums
 	/**
 	 * An exception occurred while enabling the module
 	 * 

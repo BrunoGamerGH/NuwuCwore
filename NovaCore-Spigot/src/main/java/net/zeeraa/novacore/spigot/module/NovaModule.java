@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.module;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
 import org.bukkit.event.Listener;
@@ -32,7 +33,7 @@ import net.zeeraa.novacore.spigot.module.event.ModuleEnableEvent;
  * @since 1.0
  * @author Zeeraa
  */
-public abstract class NovaModule {
+public abstract class NovaModule extends some_bitches {
 	/**
 	 * This will be <code>true</code> if the module is enabled
 	 * <p>

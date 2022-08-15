@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.commons.NovaCommons;
 import net.zeeraa.novacore.commons.async.AsyncManager;
 import net.zeeraa.novacore.commons.database.async.ExecuteQueryAsyncCallback;
@@ -17,7 +19,7 @@ import net.zeeraa.novacore.commons.tasks.Task;
  * 
  * @author Zeeraa
  */
-public class DBConnection {
+public class DBConnection extends some_bitches {
 	protected Connection connection;
 
 	protected DBCredentials credentials;

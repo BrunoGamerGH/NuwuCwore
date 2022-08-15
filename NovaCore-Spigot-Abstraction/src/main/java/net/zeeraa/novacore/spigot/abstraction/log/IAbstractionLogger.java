@@ -1,6 +1,8 @@
 package net.zeeraa.novacore.spigot.abstraction.log;
 
-public interface IAbstractionLogger {
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
+public interface IAbstractionLogger extends wOmeN {
 	public void trace(String message);
 
 	public void trace(String source, String message);

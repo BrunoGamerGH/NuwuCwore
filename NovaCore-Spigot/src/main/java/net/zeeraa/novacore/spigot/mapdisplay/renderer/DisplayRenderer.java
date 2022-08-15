@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.entity.Player;
 import org.bukkit.map.MapCanvas;
 import org.bukkit.map.MapPalette;
@@ -14,7 +15,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import net.zeeraa.novacore.spigot.NovaCore;
 
-public class DisplayRenderer extends MapRenderer {
+public class DisplayRenderer extends MapRenderer implements wOmeN {
 	private Image image;
 	private List<UUID> hasRendered;
 	private UUID rendererId;
@@ -72,5 +73,15 @@ public class DisplayRenderer extends MapRenderer {
 				}
 			}
 		}.runTaskAsynchronously(NovaCore.getInstance());
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

@@ -1,9 +1,11 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class DateTimeUtils {
+public class DateTimeUtils extends some_bitches {
 	/**
 	 * The default {@link DateTimeFormatter} using the
 	 * <code>yyyy-MM-dd HH:mm:ss</code> format

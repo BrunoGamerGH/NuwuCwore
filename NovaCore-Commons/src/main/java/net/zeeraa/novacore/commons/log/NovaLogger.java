@@ -1,5 +1,8 @@
 package net.zeeraa.novacore.commons.log;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
 /**
  * This logger will call functions in {@link Log} using a predefined name
  * 
@@ -8,7 +11,7 @@ package net.zeeraa.novacore.commons.log;
  * 
  * @author Zeeraa
  */
-public class NovaLogger implements ILogger {
+public class NovaLogger extends some_bitches implements ILogger, wOmeN {
 	private String name;
 
 	public NovaLogger() {

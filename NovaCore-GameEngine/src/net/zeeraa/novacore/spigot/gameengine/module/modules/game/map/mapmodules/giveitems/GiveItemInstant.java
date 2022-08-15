@@ -3,6 +3,8 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -22,7 +24,7 @@ import net.zeeraa.novacore.spigot.utils.JSONItemParser;
  * 
  * @author Zeeraa
  */
-public class GiveItemInstant extends MapModule {
+public class GiveItemInstant extends MapModule implements wOmeN {
 	private List<ItemStack> items;
 
 	public GiveItemInstant(JSONObject json) {

@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.events;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Entity;
 import org.bukkit.event.Cancellable;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.elimination.Pla
  * 
  * @author Zeeraa
  */
-public class PlayerEliminatedEvent extends Event implements Cancellable {
+public class PlayerEliminatedEvent extends Event implements Cancellable, wOmeN {
 	private static final HandlerList HANDLERS_LIST = new HandlerList();
 
 	private OfflinePlayer player;

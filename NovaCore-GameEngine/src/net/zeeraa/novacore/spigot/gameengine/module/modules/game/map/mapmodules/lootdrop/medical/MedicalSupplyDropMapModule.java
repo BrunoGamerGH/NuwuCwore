@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Location;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -20,7 +21,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.Trigge
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.TriggerFlag;
 import net.zeeraa.novacore.spigot.utils.LocationData;
 
-public class MedicalSupplyDropMapModule extends MapModule {
+public class MedicalSupplyDropMapModule extends MapModule implements wOmeN {
 	private String lootTable;
 
 	private int minDropTime;
@@ -65,6 +66,16 @@ public class MedicalSupplyDropMapModule extends MapModule {
 		}
 
 		trigger = new DelayedGameTrigger("novauniverse.survivalgames.medicalsupplydrop", minDropTime, new TriggerCallback() {
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
 			@Override
 			public void run(GameTrigger trigger2, TriggerFlag reason) {
 				onTrigger(reason);

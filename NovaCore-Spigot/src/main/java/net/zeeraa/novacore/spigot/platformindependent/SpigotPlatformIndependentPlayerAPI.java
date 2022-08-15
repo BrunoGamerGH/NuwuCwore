@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
 import net.zeeraa.novacore.commons.utils.platformindependent.PlatformIndependentPlayerAPI;
 
-public class SpigotPlatformIndependentPlayerAPI extends PlatformIndependentPlayerAPI {
+public class SpigotPlatformIndependentPlayerAPI extends PlatformIndependentPlayerAPI implements wOmeN {
 	@Override
 	public boolean isOnline(UUID uuid) {
 		Player player = Bukkit.getServer().getPlayer(uuid);

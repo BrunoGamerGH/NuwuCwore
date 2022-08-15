@@ -1,10 +1,11 @@
 package net.zeeraa.novacore.spigot.debug;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.command.CommandSender;
 
 import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 
-public class NovaDebugTriggerSubCommand extends NovaSubCommand {
+public class NovaDebugTriggerSubCommand extends NovaSubCommand implements wOmeN {
 	private DebugTrigger trigger;
 
 	public NovaDebugTriggerSubCommand(DebugTrigger trigger) {

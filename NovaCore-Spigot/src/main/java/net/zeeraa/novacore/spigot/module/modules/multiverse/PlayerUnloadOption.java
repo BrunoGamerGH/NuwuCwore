@@ -1,6 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.multiverse;
 
-public enum PlayerUnloadOption {
+public enum PlayerUnloadOption { // once again, an enum
 	/**
 	 * Kicks the player when the world they are in gets unloaded
 	 */

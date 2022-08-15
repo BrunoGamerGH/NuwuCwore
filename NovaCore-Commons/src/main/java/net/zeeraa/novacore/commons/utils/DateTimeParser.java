@@ -1,9 +1,11 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class DateTimeParser {
+public class DateTimeParser extends some_bitches {
 	protected DateTimeFormatter fromatter;
 
 	/**

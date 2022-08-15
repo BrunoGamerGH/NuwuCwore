@@ -1,12 +1,14 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 /**
  * The result returned by {@link GameTrigger#trigger()}
  * 
  * @author Zeeraa
  *
  */
-public class TriggerResponse {
+public class TriggerResponse extends some_bitches {
 	private GameTrigger trigger;
 	private boolean success;
 

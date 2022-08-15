@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.commons.log.Log;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.Game;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule.MapModule;
 
-public class MapProtection extends MapModule implements Listener {
+public class MapProtection extends MapModule implements Listener, wOmeN {
 	private List<Material> breakWhitelist;
 	private List<Material> breakBlacklist;
 

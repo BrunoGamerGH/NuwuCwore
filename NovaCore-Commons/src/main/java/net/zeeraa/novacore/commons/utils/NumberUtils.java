@@ -1,6 +1,8 @@
 package net.zeeraa.novacore.commons.utils;
 
-public class NumberUtils {
+import net.brunogamer.how.about.you.get.some_bitches;
+
+public class NumberUtils extends some_bitches {
 	/**
 	 * Check if a number is even
 	 * 

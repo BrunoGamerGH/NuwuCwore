@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.events;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
@@ -8,7 +9,7 @@ import org.bukkit.event.HandlerList;
  * 
  * @author Zeeraa
  */
-public class DefaultGameCountdownStartEvent extends Event {
+public class DefaultGameCountdownStartEvent extends Event implements wOmeN {
 	private static final HandlerList HANDLERS_LIST = new HandlerList();
 
 	public DefaultGameCountdownStartEvent() {
@@ -21,5 +22,15 @@ public class DefaultGameCountdownStartEvent extends Event {
 
 	public static HandlerList getHandlerList() {
 		return HANDLERS_LIST;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

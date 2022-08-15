@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.command.commands.novacore.loottable;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.spigot.loottable.LootTable;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandLootTableTest extends NovaSubCommand {
+public class NovaCoreSubCommandLootTableTest extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandLootTableTest() {
 		super("test");
 

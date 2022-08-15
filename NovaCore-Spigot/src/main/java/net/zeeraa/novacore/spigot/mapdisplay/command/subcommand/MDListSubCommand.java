@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.mapdisplay.command.subcommand;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -8,7 +9,7 @@ import net.zeeraa.novacore.spigot.command.AllowedSenders;
 import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 import net.zeeraa.novacore.spigot.mapdisplay.MapDisplayManager;
 
-public class MDListSubCommand extends NovaSubCommand {
+public class MDListSubCommand extends NovaSubCommand implements wOmeN {
 
 	public MDListSubCommand() {
 		super("list");

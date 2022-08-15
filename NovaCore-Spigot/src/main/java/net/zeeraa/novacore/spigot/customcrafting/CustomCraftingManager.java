@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
@@ -29,7 +30,7 @@ import net.zeeraa.novacore.spigot.utils.RecipeUtils;
  * 
  * @author Zeeraa
  */
-public class CustomCraftingManager implements Listener {
+public class CustomCraftingManager extends some_bitches implements Listener {
 	private static CustomCraftingManager instance;
 
 	private Map<String, CustomRecipe> recipes;

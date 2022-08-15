@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules
 
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -23,7 +24,7 @@ import net.zeeraa.novacore.spigot.utils.ItemBuilder;
  * 
  * @author Zeeraa
  */
-public class GiveItemSlow extends MapModule {
+public class GiveItemSlow extends MapModule implements wOmeN {
 	private Material material;
 	private int maxItems;
 	private int delay;

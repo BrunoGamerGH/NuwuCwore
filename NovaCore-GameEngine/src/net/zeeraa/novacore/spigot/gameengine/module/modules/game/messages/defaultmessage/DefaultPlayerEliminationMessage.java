@@ -75,4 +75,14 @@ public class DefaultPlayerEliminationMessage implements PlayerEliminationMessage
 		// "Player Eliminated> " + playerColor + ChatColor.BOLD + player.getName() + " "
 		// + ChatColor.GOLD + ChatColor.BOLD + extra);
 	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
+	}
 }

@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -26,7 +27,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.events.GameBegi
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule.MapModule;
 import net.zeeraa.novacore.spigot.timers.BasicTimer;
 
-public class GracePeriodMapModule extends MapModule implements Listener {
+public class GracePeriodMapModule extends MapModule implements Listener, wOmeN {
 	private BasicTimer endTimer;
 	private boolean isActive;
 	private int seconds;
@@ -95,15 +96,35 @@ public class GracePeriodMapModule extends MapModule implements Listener {
 
 		endTimer.addTickCallback(new TickCallback() {
 			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
+			@Override
 			public void execute(long timeLeft) {
 				if (warnings.contains(timeLeft)) {
-					Bukkit.getServer().getOnlinePlayers().forEach(player -> VersionIndependentSound.NOTE_PLING.play(player));
+					Bukkit.getServer().getOnlinePlayers().forEach(VersionIndependentSound.NOTE_PLING::play);
 					Bukkit.getServer().broadcastMessage(ChatColor.GOLD + "" + ChatColor.BOLD + "Grace period ends in " + timeLeft + " seconds " + ChatColor.RESET + ChatColor.YELLOW + TextUtils.ICON_WARNING);
 				}
 			}
 		});
 
 		endTimer.addFinishCallback(new Callback() {
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
 			@Override
 			public void execute() {
 				isActive = false;

@@ -5,9 +5,10 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.json.JSONObject;
 
-public class MapModuleManager {
+public class MapModuleManager extends some_bitches {
 	private static Map<String, Class<? extends MapModule>> mapModules = new HashMap<String, Class<? extends MapModule>>();
 
 	public static void addMapModule(String name, Class<? extends MapModule> clazz) {

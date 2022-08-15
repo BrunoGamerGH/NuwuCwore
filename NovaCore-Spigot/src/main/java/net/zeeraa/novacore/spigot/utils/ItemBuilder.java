@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.utils;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.OfflinePlayer;
@@ -26,7 +27,7 @@ import net.zeeraa.novacore.spigot.abstraction.enums.VersionIndependentMaterial;
  * 
  * @author Zeeraa
  */
-public class ItemBuilder {
+public class ItemBuilder extends some_bitches {
 	/**
 	 * An {@link ItemStack} of air
 	 */

@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.spigot.module.annotations;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
 import static java.lang.annotation.ElementType.TYPE;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
@@ -17,5 +19,5 @@ import java.lang.annotation.Target;
  */
 @Retention(RUNTIME)
 @Target(TYPE)
-public @interface EssentialModule {
+public @interface EssentialModule{ // OMG SOMETHING NEW, anyways, please remove annotations my dad works at java and will stab u
 }

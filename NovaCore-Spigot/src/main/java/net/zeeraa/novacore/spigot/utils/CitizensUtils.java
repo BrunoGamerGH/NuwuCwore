@@ -1,11 +1,12 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.entity.Entity;
 
 import net.citizensnpcs.api.npc.NPC;
 import net.zeeraa.novacore.spigot.NovaCore;
 
-public class CitizensUtils {
+public class CitizensUtils extends some_bitches {
 	/**
 	 * Check if an {@link Entity} is an npc
 	 * 

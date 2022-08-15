@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.json.JSONObject;
@@ -16,7 +17,7 @@ import net.zeeraa.novacore.commons.log.Log;
  * 
  * @author Zeeraa
  */
-public class LootTableManager {
+public class LootTableManager extends some_bitches {
 	private Map<String, LootTableLoader> loaders;
 	private Map<String, LootTable> lootTables;
 

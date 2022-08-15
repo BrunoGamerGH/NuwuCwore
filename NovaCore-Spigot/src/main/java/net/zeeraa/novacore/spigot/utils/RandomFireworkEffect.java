@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.utils;
 
 import java.util.Random;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Color;
 import org.bukkit.FireworkEffect;
 import org.bukkit.FireworkEffect.Type;
@@ -11,7 +12,7 @@ import org.bukkit.FireworkEffect.Type;
  * 
  * @author Zeeraa
  */
-public class RandomFireworkEffect {
+public class RandomFireworkEffect extends some_bitches {
 	/**
 	 * Generate a random {@link FireworkEffect}
 	 * 

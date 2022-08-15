@@ -5,7 +5,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.elimination;
  * 
  * @author Zeeraa
  */
-public enum PlayerEliminationReason {
+public enum PlayerEliminationReason { // enum. delete. dad work. java. and kill
 	/**
 	 * The player was killed by another entity
 	 */

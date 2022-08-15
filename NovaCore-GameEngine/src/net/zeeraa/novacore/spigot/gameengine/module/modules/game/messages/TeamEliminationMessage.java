@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.messages;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.zeeraa.novacore.spigot.teams.Team;
 
 /**
@@ -7,7 +8,7 @@ import net.zeeraa.novacore.spigot.teams.Team;
  * 
  * @author Zeeraa
  */
-public interface TeamEliminationMessage {
+public interface TeamEliminationMessage extends wOmeN {
 	/**
 	 * Show the team elimination message
 	 * 

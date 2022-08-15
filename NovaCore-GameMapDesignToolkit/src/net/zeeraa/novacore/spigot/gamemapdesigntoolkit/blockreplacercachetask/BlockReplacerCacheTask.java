@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -18,7 +19,7 @@ import net.zeeraa.novacore.spigot.gamemapdesigntoolkit.GameMapDesignToolkit;
 import net.zeeraa.novacore.spigot.utils.VectorArea;
 import net.zeeraa.novacore.spigot.utils.XYZLocation;
 
-public class BlockReplacerCacheTask {
+public class BlockReplacerCacheTask extends some_bitches {
 	private VectorArea area;
 	private World world;
 

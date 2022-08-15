@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.novaplugin;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.event.HandlerList;
 import org.bukkit.event.Listener;
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.spigot.module.modules.customitems.CustomItemManager;
  * 
  * @author Zeeraa
  */
-public abstract class NovaPlugin extends JavaPlugin {
+public abstract class NovaPlugin extends JavaPlugin implements wOmeN {
 	protected boolean requireModule(Class<? extends NovaModule> clazz) {
 		return ModuleManager.require(clazz);
 	}

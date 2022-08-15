@@ -1,6 +1,8 @@
 package net.zeeraa.novacore.spigot.abstraction.log;
 
-public class AbstractionLogger {
+import net.brunogamer.how.about.you.get.some_bitches;
+
+public class AbstractionLogger extends some_bitches {
 	private static IAbstractionLogger logger;
 
 	public static IAbstractionLogger getLogger() {

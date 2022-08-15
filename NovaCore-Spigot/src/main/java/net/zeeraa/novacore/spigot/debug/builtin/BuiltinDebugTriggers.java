@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.debug.builtin;
 import java.io.File;
 import java.io.IOException;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -24,9 +25,19 @@ import net.zeeraa.novacore.spigot.utils.ItemBuilder;
 import net.zeeraa.novacore.spigot.utils.JSONItemParser;
 import net.zeeraa.novacore.spigot.utils.LocationUtils;
 
-public class BuiltinDebugTriggers {
+public class BuiltinDebugTriggers extends some_bitches {
 	public BuiltinDebugTriggers() {
 		DebugCommandRegistrator.getInstance().addDebugTrigger(new DebugTrigger() {
+
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
 
 			@Override
 			public void onExecute(CommandSender sender, String commandLabel, String[] args) {
@@ -70,6 +81,16 @@ public class BuiltinDebugTriggers {
 		DebugCommandRegistrator.getInstance().addDebugTrigger(new DebugTrigger() {
 
 			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
+			@Override
 			public void onExecute(CommandSender sender, String commandLabel, String[] args) {
 				Player player = (Player) sender;
 
@@ -109,6 +130,16 @@ public class BuiltinDebugTriggers {
 		});
 
 		DebugCommandRegistrator.getInstance().addDebugTrigger(new DebugTrigger() {
+
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
 
 			@Override
 			public void onExecute(CommandSender sender, String commandLabel, String[] args) {
@@ -164,6 +195,16 @@ public class BuiltinDebugTriggers {
 
 		DebugCommandRegistrator.getInstance().addDebugTrigger(new DebugTrigger() {
 			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
+			@Override
 			public void onExecute(CommandSender sender, String commandLabel, String[] args) {
 				Player player = (Player) sender;
 
@@ -206,6 +247,16 @@ public class BuiltinDebugTriggers {
 		});
 
 		DebugCommandRegistrator.getInstance().addDebugTrigger(new DebugTrigger() {
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
 			@Override
 			public void onExecute(CommandSender sender, String commandLabel, String[] args) {
 				Player player = (Player) sender;

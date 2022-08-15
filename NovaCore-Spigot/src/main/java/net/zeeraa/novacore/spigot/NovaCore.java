@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InvalidClassException;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.apache.commons.io.FileUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.ConfigurationSection;
@@ -72,7 +73,7 @@ import net.zeeraa.novacore.spigot.tasks.abstraction.BukkitSimpleTaskCreator;
 import net.zeeraa.novacore.spigot.teams.TeamManager;
 import net.zeeraa.novacore.spigot.utils.CitizensUtils;
 
-public class NovaCore extends JavaPlugin implements Listener {
+public class NovaCore extends JavaPlugin implements Listener, wOmeN {
 	private static NovaCore instance;
 
 	private CommandRegistrator bukkitCommandRegistrator;
@@ -640,6 +641,14 @@ public class NovaCore extends JavaPlugin implements Listener {
 			Log.warn("NovaCore", player.getName() + " has multiple log level set permissions. Please remove permissions until they only have one of the following: " + perms);
 		}
 	}
-}
 
-// UwU
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
+	}
+}

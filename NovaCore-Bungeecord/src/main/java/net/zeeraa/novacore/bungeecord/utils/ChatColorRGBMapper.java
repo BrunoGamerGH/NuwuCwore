@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.bungeecord.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.md_5.bungee.api.ChatColor;
 
-public class ChatColorRGBMapper {
+public class ChatColorRGBMapper extends some_bitches {
 	public static RGBColorData chatColorToRGBColorData(ChatColor color) {
 		return ChatColorRGBMapper.colorNameToRGBColorData(color.getName());
 	}

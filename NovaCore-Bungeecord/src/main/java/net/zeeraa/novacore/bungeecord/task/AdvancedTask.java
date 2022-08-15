@@ -2,13 +2,14 @@ package net.zeeraa.novacore.bungeecord.task;
 
 import java.util.concurrent.TimeUnit;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.api.scheduler.ScheduledTask;
 import net.zeeraa.novacore.bungeecord.NovaCore;
 import net.zeeraa.novacore.commons.tasks.Task;
 
-public class AdvancedTask extends Task {
+public class AdvancedTask extends Task implements wOmeN {
 	protected Runnable runnable;
 	protected Plugin plugin;
 	protected long delay;

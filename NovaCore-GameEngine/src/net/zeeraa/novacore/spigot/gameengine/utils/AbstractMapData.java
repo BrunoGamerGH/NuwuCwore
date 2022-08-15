@@ -4,11 +4,12 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.World;
 
 import net.zeeraa.novacore.commons.log.Log;
 
-public abstract class AbstractMapData {
+public abstract class AbstractMapData extends some_bitches {
 	protected String mapName;
 	protected String displayName;
 	protected String description;

@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.command.commands.dumplanguagenodes;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -10,7 +11,7 @@ import net.zeeraa.novacore.spigot.command.NovaCommand;
 import net.zeeraa.novacore.spigot.language.Language;
 import net.zeeraa.novacore.spigot.language.LanguageManager;
 
-public class DumpLanguageNodesCommand extends NovaCommand {
+public class DumpLanguageNodesCommand extends NovaCommand implements wOmeN {
 	public DumpLanguageNodesCommand() {
 		super("dumplanguagenodes", NovaCore.getInstance());
 

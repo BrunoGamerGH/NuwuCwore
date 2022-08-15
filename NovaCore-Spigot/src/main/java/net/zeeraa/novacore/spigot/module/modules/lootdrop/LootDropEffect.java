@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.module.modules.lootdrop;
 import java.util.HashMap;
 import java.util.Map;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.FireworkEffect;
@@ -17,7 +18,7 @@ import org.bukkit.inventory.meta.FireworkMeta;
 import net.zeeraa.novacore.spigot.NovaCore;
 import net.zeeraa.novacore.spigot.abstraction.enums.VersionIndependentSound;
 
-public class LootDropEffect implements Runnable {
+public class LootDropEffect extends some_bitches implements Runnable {
 	private Location location;
 	private String lootTable;
 

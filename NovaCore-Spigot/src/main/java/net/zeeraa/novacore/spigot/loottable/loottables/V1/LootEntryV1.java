@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.inventory.ItemStack;
 
 /**
@@ -12,7 +13,7 @@ import org.bukkit.inventory.ItemStack;
  * @author Zeeraa
  * @since 2.0.0
  */
-public interface LootEntryV1 {
+public interface LootEntryV1 extends wOmeN {
 	@Nullable
 	public ItemStack generateItem();
 

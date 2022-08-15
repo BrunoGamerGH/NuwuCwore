@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game;
 
 import java.io.File;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.json.JSONObject;
 
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMapData;
@@ -11,7 +12,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMapData
  * 
  * @author Zeeraa
  */
-public abstract class MapReader {
+public abstract class MapReader extends some_bitches {
 	private String loaderName;
 
 	public MapReader(String loaderName) {

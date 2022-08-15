@@ -1,12 +1,13 @@
 package net.zeeraa.novacore.spigot.abstraction.events;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class VersionIndependentPlayerPickUpItemEvent extends Event implements Cancellable {
+public class VersionIndependentPlayerPickUpItemEvent extends Event implements wOmeN {
 	private static final HandlerList HANDLERS_LIST = new HandlerList();
 
 	private boolean cancel;

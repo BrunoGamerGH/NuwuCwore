@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.map;
 
 import java.io.File;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.json.JSONObject;
@@ -11,7 +12,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.GameManager;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.mapselector.MapSelector;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.GameLobby;
 
-public abstract class GameLobbyReader {
+public abstract class GameLobbyReader extends some_bitches {
 	/**
 	 * Try to load all JSON files from a directory as maps and add them to the lobby
 	 * list

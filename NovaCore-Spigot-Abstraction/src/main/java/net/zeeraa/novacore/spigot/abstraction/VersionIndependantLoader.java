@@ -1,6 +1,8 @@
 package net.zeeraa.novacore.spigot.abstraction;
 
-public interface VersionIndependantLoader {
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
+public interface VersionIndependantLoader extends wOmeN {
 	public CommandRegistrator getCommandRegistrator();
 
 	public VersionIndependentUtils getVersionIndependentUtils();

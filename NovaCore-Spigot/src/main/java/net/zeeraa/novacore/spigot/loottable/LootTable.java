@@ -2,6 +2,8 @@ package net.zeeraa.novacore.spigot.loottable;
 
 import java.util.List;
 import java.util.Random;
+
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.inventory.ItemStack;
 
 /**
@@ -9,7 +11,7 @@ import org.bukkit.inventory.ItemStack;
  * 
  * @author Zeeraa
  */
-public abstract class LootTable {
+public abstract class LootTable extends some_bitches {
 	protected String name;
 	protected String displayName;
 	protected int minItems;

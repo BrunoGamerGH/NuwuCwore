@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules.simplemapdecay;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.Trigge
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.TriggerFlag;
 import net.zeeraa.novacore.spigot.utils.VectorArea;
 
-public class SimpleBoxDecay extends MapModule {
+public class SimpleBoxDecay extends MapModule implements wOmeN {
 	private VectorArea area;
 
 	private String startMessage;
@@ -47,6 +48,16 @@ public class SimpleBoxDecay extends MapModule {
 
 		trigger = new RepeatingGameTrigger("novauniverse.simpleboxdecay.simpleboxdecay", 20L, 60L, new TriggerCallback() {
 			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
+			@Override
 			public void run(GameTrigger trigger2, TriggerFlag reason) {
 				execDecayStep();
 			}
@@ -55,6 +66,16 @@ public class SimpleBoxDecay extends MapModule {
 		trigger.addFlag(TriggerFlag.STOP_ON_GAME_END);
 
 		startTrigger = new DelayedGameTrigger("novauniverse.simpleboxdecay.begin_simpleboxdecay", beginAfter * 20L, new TriggerCallback() {
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
 			@Override
 			public void run(GameTrigger trigger2, TriggerFlag reason) {
 				Bukkit.getServer().getOnlinePlayers().forEach(p -> {

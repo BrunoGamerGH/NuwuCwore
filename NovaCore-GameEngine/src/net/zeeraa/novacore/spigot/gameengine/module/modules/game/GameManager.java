@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.apache.commons.io.FilenameUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -72,7 +73,7 @@ import net.zeeraa.novacore.spigot.utils.PlayerUtils;
  * 
  * @author Zeeraa
  */
-public class GameManager extends NovaModule implements Listener {
+public class GameManager extends NovaModule implements Listener, wOmeN {
 	private static GameManager instance;
 	private Game activeGame;
 
@@ -1111,6 +1112,16 @@ public class GameManager extends NovaModule implements Listener {
 						case DELAYED:
 							EliminationTask eliminationTask = new EliminationTask(player.getUniqueId(), player.getName(), activeGame.getPlayerEliminationDelay(), new Callback() {
 								@Override
+								public boolean isCancelled() {
+									return false;
+								}
+
+								@Override
+								public void setCancelled(boolean cancel) {
+
+								}
+
+								@Override
 								public void execute() {
 									getActiveGame().eliminatePlayer(player, null, PlayerEliminationReason.DID_NOT_RECONNECT);
 								}
@@ -1160,5 +1171,15 @@ public class GameManager extends NovaModule implements Listener {
 	public void onGameEnd(GameEndEvent e) {
 		GameTrigger.triggerMany(e.getGame().getTriggersByFlag(TriggerFlag.TRIGGER_ON_GAME_END), TriggerFlag.TRIGGER_ON_GAME_END);
 		GameTrigger.stopMany(e.getGame().getTriggersByFlag(TriggerFlag.STOP_ON_GAME_END));
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

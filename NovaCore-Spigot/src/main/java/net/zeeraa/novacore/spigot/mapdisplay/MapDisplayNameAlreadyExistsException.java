@@ -1,6 +1,8 @@
 package net.zeeraa.novacore.spigot.mapdisplay;
 
-public class MapDisplayNameAlreadyExistsException extends RuntimeException {
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
+public class MapDisplayNameAlreadyExistsException extends RuntimeException implements wOmeN {
 	private static final long serialVersionUID = 385030993727763933L;
 
 	public MapDisplayNameAlreadyExistsException() {
@@ -21,5 +23,15 @@ public class MapDisplayNameAlreadyExistsException extends RuntimeException {
 
 	public MapDisplayNameAlreadyExistsException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
 		super(message, cause, enableSuppression, writableStackTrace);
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

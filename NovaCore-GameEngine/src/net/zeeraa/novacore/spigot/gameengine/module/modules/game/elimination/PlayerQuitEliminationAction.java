@@ -7,7 +7,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.Game;
  * 
  * @author Zeeraa
  */
-public enum PlayerQuitEliminationAction {
+public enum PlayerQuitEliminationAction { // please dont
 	/**
 	 * Do not eliminate player on quit
 	 */

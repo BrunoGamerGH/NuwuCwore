@@ -2,9 +2,10 @@ package net.zeeraa.novacore.spigot.gameengine.utils;
 
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.World;
 
-public abstract class AbstractMap {
+public abstract class AbstractMap extends some_bitches {
 	protected World world;
 	protected AbstractMapData abstractMapData;
 

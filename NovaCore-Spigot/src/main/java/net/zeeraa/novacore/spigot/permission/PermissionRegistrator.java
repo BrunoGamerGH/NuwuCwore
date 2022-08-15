@@ -1,12 +1,13 @@
 package net.zeeraa.novacore.spigot.permission;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.permissions.Permission;
 import org.bukkit.permissions.PermissionDefault;
 
 import net.zeeraa.novacore.commons.log.Log;
 
-public class PermissionRegistrator {
+public class PermissionRegistrator extends some_bitches {
 	public static boolean registerPermission(String name) {
 		return registerPermission(new Permission(name));
 	}

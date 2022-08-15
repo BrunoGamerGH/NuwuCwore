@@ -2,6 +2,7 @@ package net.zeeraa.novacore.commons.utils;
 
 import java.util.Random;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.ChatColor;
 
 /**
@@ -9,7 +10,7 @@ import org.bukkit.ChatColor;
  * 
  * @author Zeeraa
  */
-public class TextUtils {
+public class TextUtils extends some_bitches {
 	/**
 	 * Heart in unicode
 	 * <p>

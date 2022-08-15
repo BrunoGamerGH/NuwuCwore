@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.bungeecord.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.json.JSONObject;
 
-public class RGBColorData {
+public class RGBColorData extends some_bitches {
 	private int r;
 	private int g;
 	private int b;

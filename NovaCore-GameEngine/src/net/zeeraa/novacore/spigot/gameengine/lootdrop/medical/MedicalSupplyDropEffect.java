@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.lootdrop.medical;
 
 import java.util.HashMap;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.DyeColor;
@@ -18,7 +19,7 @@ import net.zeeraa.novacore.spigot.NovaCore;
 import net.zeeraa.novacore.spigot.abstraction.enums.ColoredBlockType;
 import net.zeeraa.novacore.spigot.abstraction.enums.VersionIndependentSound;
 
-public class MedicalSupplyDropEffect implements Runnable {
+public class MedicalSupplyDropEffect extends some_bitches implements Runnable {
 	private Location location;
 	private String lootTable;
 

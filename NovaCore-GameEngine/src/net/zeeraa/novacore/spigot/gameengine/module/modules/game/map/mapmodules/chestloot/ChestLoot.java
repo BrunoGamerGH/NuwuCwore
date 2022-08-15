@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules.chestloot;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.json.JSONObject;
 
 import net.zeeraa.novacore.commons.log.Log;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.Trigge
 import net.zeeraa.novacore.spigot.module.ModuleManager;
 import net.zeeraa.novacore.spigot.module.modules.chestloot.ChestLootManager;
 
-public class ChestLoot extends MapModule {
+public class ChestLoot extends MapModule implements wOmeN {
 	private String chestLootTable;
 	private String enderChestLootTable;
 
@@ -62,6 +63,16 @@ public class ChestLoot extends MapModule {
 		}
 
 		this.trigger = new DelayedGameTrigger("novacore.chest.refill", minRefillTime * 20, new TriggerCallback() {
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
 			@Override
 			public void run(GameTrigger trigger, TriggerFlag reason) {
 				ChestLootManager.getInstance().refillChests(announceRefills);

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -18,7 +19,7 @@ import net.zeeraa.novacore.spigot.abstraction.enums.PlayerDamageReason;
  * @author Zeeraa
  *
  */
-public class PlayerUtils {
+public class PlayerUtils extends some_bitches {
 	/**
 	 * Clear the players inventory including armor slots
 	 * 

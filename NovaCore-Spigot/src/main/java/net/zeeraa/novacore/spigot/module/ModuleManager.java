@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.apache.commons.io.FileUtils;
 import org.bukkit.plugin.Plugin;
 
@@ -18,7 +19,7 @@ import net.zeeraa.novacore.spigot.utils.ClassFinder;
  * @since 1.0
  * @author Zeeraa
  */
-public class ModuleManager {
+public class ModuleManager extends some_bitches {
 	private static Map<String, NovaModule> modules = new HashMap<>();
 
 	/**

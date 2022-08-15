@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.commons.async;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.commons.NovaCommons;
 
-public class AsyncManager {
+public class AsyncManager extends some_bitches {
 	/**
 	 * Run a runnable asynchronous
 	 * 

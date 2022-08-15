@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.commons.utils.filenamefilters;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.io.File;
 import java.io.FilenameFilter;
 
@@ -9,7 +11,7 @@ import java.io.FilenameFilter;
  * 
  * @author Mohamed Mansour
  */
-public class DirectoryOnlyFilenameFilter implements FilenameFilter {
+public class DirectoryOnlyFilenameFilter extends some_bitches implements FilenameFilter  {
 	@Override
 	public boolean accept(File current, String name) {
 		return new File(current, name).isDirectory();

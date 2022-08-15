@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.ChatColor;
 
-public class ChatColorRGBMapper {
+public class ChatColorRGBMapper extends some_bitches {
 	public static RGBColorData chatColorToRGBColorData(ChatColor color) {
 		return ChatColorRGBMapper.colorNameToRGBColorData(color.name());
 	}

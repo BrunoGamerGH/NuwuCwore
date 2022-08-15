@@ -1,12 +1,13 @@
 package net.zeeraa.novacore.spigot.module.modules.compass;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Location;
 
 /**
  * Used to indicate the target of a compass in the {@link CompassTracker} module
  * @author Zeeraa
  */
-public class CompassTarget {
+public class CompassTarget extends some_bitches {
 	private Location targetLocation;
 	private String trackingMessage;
 	

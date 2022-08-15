@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.command.commands.game.lootdrop;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -16,7 +17,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules.
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandGameLootdrop extends NovaSubCommand {
+public class NovaCoreSubCommandGameLootdrop extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandGameLootdrop() {
 		super("lootdrop");
 
@@ -69,5 +70,15 @@ public class NovaCoreSubCommandGameLootdrop extends NovaSubCommand {
 		}
 
 		return false;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

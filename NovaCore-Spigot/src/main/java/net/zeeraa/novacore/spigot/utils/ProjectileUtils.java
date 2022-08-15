@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Entity;
@@ -12,7 +13,7 @@ import org.bukkit.util.Vector;
  * 
  * @author Zeeraa
  */
-public class ProjectileUtils {
+public class ProjectileUtils extends some_bitches {
 	/**
 	 * Check if a a entity is a {@link Projectile}
 	 * 

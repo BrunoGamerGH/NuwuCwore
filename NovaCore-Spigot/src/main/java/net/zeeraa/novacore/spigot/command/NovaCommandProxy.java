@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
@@ -17,7 +18,7 @@ import net.zeeraa.novacore.commons.log.Log;
  * 
  * @author Zeeraa
  */
-public class NovaCommandProxy extends Command {
+public class NovaCommandProxy extends Command implements wOmeN {
 	private NovaCommand novaCommand;
 
 	/**
@@ -201,5 +202,15 @@ public class NovaCommandProxy extends Command {
 			// No matching sub commands found, Return the tab value of this command
 			return command.tabComplete(sender, alias, args);
 		}
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,7 +17,7 @@ import java.util.zip.ZipInputStream;
  * @author www.codejava.net
  *
  */
-public class UnzipUtility {
+public class UnzipUtility extends some_bitches {
 	/**
 	 * Size of the buffer to read/write data
 	 */

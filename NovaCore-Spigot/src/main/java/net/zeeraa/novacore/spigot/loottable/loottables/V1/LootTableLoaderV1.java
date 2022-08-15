@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.loottable.loottables.V1;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
@@ -30,7 +31,7 @@ import net.zeeraa.novacore.spigot.version.v1_16_R3.ParsePotionEffect1_16;
  * 
  * @author Zeeraa
  */
-public class LootTableLoaderV1 implements LootTableLoader {
+public class LootTableLoaderV1 implements LootTableLoader, wOmeN {
 	@Override
 	public LootTable read(JSONObject json) {
 		String lootTableName = json.getString("name");
@@ -281,5 +282,15 @@ public class LootTableLoaderV1 implements LootTableLoader {
 		}
 
 		return new PotionEffect(type, duration, amplifier, ambient, particles);
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

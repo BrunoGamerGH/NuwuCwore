@@ -2,9 +2,10 @@ package net.zeeraa.novacore.commons;
 
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.commons.api.novauniverse.NovaUniverseAPI;
 
-public class APITests {
+public class APITests extends some_bitches {
 
 	public static void main(String[] args) {
 		try {

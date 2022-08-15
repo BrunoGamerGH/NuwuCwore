@@ -1,9 +1,10 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.ChatColor;
 import org.json.JSONObject;
 
-public class RGBColorData {
+public class RGBColorData extends some_bitches {
 	private int r;
 	private int g;
 	private int b;

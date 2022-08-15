@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -12,7 +13,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.map.GameLo
 import net.zeeraa.novacore.spigot.gameengine.utils.HologramData;
 import net.zeeraa.novacore.spigot.utils.LocationData;
 
-public class DefaultLobbyMapReader extends GameLobbyReader {
+public class DefaultLobbyMapReader extends GameLobbyReader implements wOmeN {
 	@Override
 	public GameLobbyMapData readMap(JSONObject json, File worldDirectory) {
 		String mapName = json.getString("map_name");

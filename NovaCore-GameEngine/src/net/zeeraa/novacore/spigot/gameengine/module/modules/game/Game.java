@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.OfflinePlayer;
@@ -46,7 +47,7 @@ import net.zeeraa.novacore.spigot.utils.PlayerUtils;
  * 
  * @author Zeeraa
  */
-public abstract class Game {
+public abstract class Game extends some_bitches {
 	/**
 	 * This is the task that run the winner check.
 	 * <p>

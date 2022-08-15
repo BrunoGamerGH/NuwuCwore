@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.command.commands.game.eliminatepla
 
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.GameManager;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.elimination.PlayerEliminationReason;
 
-public class NovaCoreSubCommandGameEliminateOfflinePlayer extends NovaSubCommand {
+public class NovaCoreSubCommandGameEliminateOfflinePlayer extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandGameEliminateOfflinePlayer() {
 		super("eliminateofflineplayer");
 
@@ -37,6 +38,16 @@ public class NovaCoreSubCommandGameEliminateOfflinePlayer extends NovaSubCommand
 
 					try {
 						NovaUniverseAPI.nameToUUIDAsync(args[0], new IAsyncNameToUUIDCallback() {
+							@Override
+							public boolean isCancelled() {
+								return false;
+							}
+
+							@Override
+							public void setCancelled(boolean cancel) {
+
+							}
+
 							@Override
 							public void onResult(UUID uuid, Exception exception) {
 								if (uuid != null) {
@@ -71,5 +82,15 @@ public class NovaCoreSubCommandGameEliminateOfflinePlayer extends NovaSubCommand
 		}
 
 		return false;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

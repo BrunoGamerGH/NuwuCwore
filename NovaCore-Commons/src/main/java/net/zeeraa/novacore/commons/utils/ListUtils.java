@@ -1,10 +1,12 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class ListUtils {
+public class ListUtils extends some_bitches {
 	/**
 	 * Create a new {@link ArrayList} and add the content of the provided
 	 * {@link List} to it

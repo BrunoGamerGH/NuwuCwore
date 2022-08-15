@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.spigot.module.modules.gui.callbacks.GUICloseCallback;
  * 
  * @author Zeeraa
  */
-public class GUIHolder implements InventoryHolder {
+public class GUIHolder extends some_bitches implements InventoryHolder {
 	private List<GUICloseCallback> closeCallbacks = new ArrayList<>();
 
 	private List<GUIClickCallback> clickCallbacks = new ArrayList<>();

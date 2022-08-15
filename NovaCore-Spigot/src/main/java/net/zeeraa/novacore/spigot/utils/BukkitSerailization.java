@@ -4,6 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
@@ -23,7 +24,7 @@ import org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder;
  * 
  * @author aadnk
  */
-public class BukkitSerailization {
+public class BukkitSerailization extends some_bitches {
 	/**
 	 * 
 	 * A method to serialize an {@link ItemStack} array to Base64 String.

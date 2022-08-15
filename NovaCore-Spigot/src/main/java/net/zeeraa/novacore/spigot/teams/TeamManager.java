@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;
 
 import net.zeeraa.novacore.spigot.NovaCore;
 
-public abstract class TeamManager {
+public abstract class TeamManager extends some_bitches {
 	protected List<Team> teams;
 
 	public TeamManager() {

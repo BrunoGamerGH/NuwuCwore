@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.command.commands.game.resetcountdown;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -12,7 +13,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.GameManager;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandResetCountdownGame extends NovaSubCommand {
+public class NovaCoreSubCommandResetCountdownGame extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandResetCountdownGame() {
 		super("resetcountdown");
 
@@ -53,5 +54,15 @@ public class NovaCoreSubCommandResetCountdownGame extends NovaSubCommand {
 			sender.sendMessage(ChatColor.RED + "GameManager is not enabled");
 		}
 		return false;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

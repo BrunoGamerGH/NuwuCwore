@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.command;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.plugin.Plugin;
 
 /**
@@ -9,7 +10,7 @@ import org.bukkit.plugin.Plugin;
  * 
  * @author Zeeraa
  */
-public abstract class NovaCommand extends NovaCommandBase {
+public abstract class NovaCommand extends NovaCommandBase implements wOmeN {
 	private Plugin owner;
 
 	/**

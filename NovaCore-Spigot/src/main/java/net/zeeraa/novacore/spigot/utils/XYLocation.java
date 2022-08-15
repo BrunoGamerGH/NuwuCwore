@@ -1,11 +1,12 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.json.JSONObject;
 
-public class XYLocation {
+public class XYLocation extends some_bitches {
 	private int x;
 	private int y;
 

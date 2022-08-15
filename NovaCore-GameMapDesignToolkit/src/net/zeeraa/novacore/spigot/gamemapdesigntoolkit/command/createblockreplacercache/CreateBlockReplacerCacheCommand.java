@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gamemapdesigntoolkit.command.createblockreplacercache;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -10,7 +11,7 @@ import net.zeeraa.novacore.spigot.command.NovaCommand;
 import net.zeeraa.novacore.spigot.gamemapdesigntoolkit.blockreplacercachetask.BlockReplacerCacheTask;
 import net.zeeraa.novacore.spigot.utils.VectorArea;
 
-public class CreateBlockReplacerCacheCommand extends NovaCommand {
+public class CreateBlockReplacerCacheCommand extends NovaCommand implements wOmeN {
 	public CreateBlockReplacerCacheCommand(Plugin owner) {
 		super("createblockreplacercache", owner);
 
@@ -53,5 +54,15 @@ public class CreateBlockReplacerCacheCommand extends NovaCommand {
 		new BlockReplacerCacheTask(vectorArea, ((Player) sender).getWorld());
 
 		return true;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

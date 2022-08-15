@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.messages;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.Game;
 
-public interface GameStartFailureMessage {
+public interface GameStartFailureMessage extends wOmeN {
 	/**
 	 * Show a message when a game fails to start
 	 * 

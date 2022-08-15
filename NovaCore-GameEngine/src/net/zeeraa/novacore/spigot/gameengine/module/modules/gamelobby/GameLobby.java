@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.entity.Player;
@@ -49,7 +50,7 @@ import net.zeeraa.novacore.spigot.utils.PlayerUtils;
  * 
  * @author Zeeraa
  */
-public class GameLobby extends NovaModule implements Listener {
+public class GameLobby extends NovaModule implements Listener, wOmeN {
 	private static GameLobby instance;
 
 	private GameLobbyMap activeMap;
@@ -415,5 +416,15 @@ public class GameLobby extends NovaModule implements Listener {
 				}
 			}
 		}
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.configuration.ConfigurationSection;
@@ -12,7 +13,7 @@ import org.json.JSONObject;
  * 
  * @author Zeeraa
  */
-public class XYZLocation {
+public class XYZLocation extends some_bitches {
 	private double x;
 	private double y;
 	private double z;

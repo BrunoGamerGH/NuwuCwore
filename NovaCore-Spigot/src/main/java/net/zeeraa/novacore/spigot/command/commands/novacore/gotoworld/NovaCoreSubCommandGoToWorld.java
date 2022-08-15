@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.command.CommandSender;
@@ -22,7 +23,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandGoToWorld extends NovaSubCommand {
+public class NovaCoreSubCommandGoToWorld extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandGoToWorld() {
 		super("gotoworld");
 

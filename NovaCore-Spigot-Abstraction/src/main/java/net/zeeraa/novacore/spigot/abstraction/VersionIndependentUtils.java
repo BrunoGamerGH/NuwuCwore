@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.DyeColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -37,7 +38,7 @@ import net.zeeraa.novacore.spigot.abstraction.log.AbstractionLogger;
  * 
  * @author zeeraa
  */
-public abstract class VersionIndependentUtils {
+public abstract class VersionIndependentUtils extends some_bitches {
 	private static VersionIndependentUtils instance;
 	protected static List<String> BED_MATERIALS = new ArrayList<>();
 

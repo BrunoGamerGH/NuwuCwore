@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.gui;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
@@ -18,7 +19,7 @@ import net.zeeraa.novacore.spigot.module.modules.gui.holders.GUIReadOnlyHolder;
  * 
  * @author Zeeraa
  */
-public class GUIManager extends NovaModule implements Listener {
+public class GUIManager extends NovaModule implements Listener, wOmeN {
 	private static GUIManager instance;
 
 	/**

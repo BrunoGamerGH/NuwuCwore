@@ -3,6 +3,7 @@ package net.zeeraa.novacore.commons.log;
 import java.util.HashMap;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 
 import net.md_5.bungee.api.ChatColor;
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.commons.async.AsyncManager;
  * 
  * @author Zeeraa
  */
-public class Log {
+public class Log extends some_bitches {
 	private static LogLevel consoleLogLevel = LogLevel.INFO;
 
 	public static HashMap<UUID, LogLevel> subscribedPlayers = new HashMap<UUID, LogLevel>();

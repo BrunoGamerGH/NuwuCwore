@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.mapselector;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMapData;
 
 /**
@@ -10,7 +11,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMapData
  * 
  * @author Zeeraa
  */
-public abstract class MapSelector {
+public abstract class MapSelector extends some_bitches {
 	protected List<GameMapData> maps;
 
 	public MapSelector() {

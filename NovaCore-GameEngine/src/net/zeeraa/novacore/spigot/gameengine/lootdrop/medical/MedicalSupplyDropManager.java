@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -35,7 +36,7 @@ import net.zeeraa.novacore.spigot.tasks.SimpleTask;
 import net.zeeraa.novacore.spigot.utils.LocationUtils;
 import xyz.xenondevs.particle.ParticleEffect;
 
-public class MedicalSupplyDropManager extends NovaModule implements Listener {
+public class MedicalSupplyDropManager extends NovaModule implements Listener, wOmeN {
 	private static MedicalSupplyDropManager instance;
 
 	private List<MedicalSupplyDrop> chests;
@@ -323,5 +324,15 @@ public class MedicalSupplyDropManager extends NovaModule implements Listener {
 				return;
 			}
 		}
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

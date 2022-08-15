@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.command.commands.game.debug;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -11,7 +12,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.GameManager;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.MapGame;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule.MapModule;
 
-public class GameDebugCommand extends NovaSubCommand {
+public class GameDebugCommand extends NovaSubCommand implements wOmeN {
 	public GameDebugCommand() {
 		super("debug");
 		setAllowedSenders(AllowedSenders.ALL);
@@ -77,5 +78,15 @@ public class GameDebugCommand extends NovaSubCommand {
 		sender.sendMessage(ChatColor.AQUA + "-=-=-= END DEBUG =-=-=-");
 
 		return true;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

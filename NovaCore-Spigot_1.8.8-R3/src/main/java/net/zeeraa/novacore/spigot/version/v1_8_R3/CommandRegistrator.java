@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.version.v1_8_R3;
 
 import java.lang.reflect.Field;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandMap;
@@ -13,7 +14,7 @@ import org.bukkit.craftbukkit.v1_8_R3.CraftServer;
  * 
  * @author Zeeraa
  */
-public class CommandRegistrator implements net.zeeraa.novacore.spigot.abstraction.CommandRegistrator {
+public class CommandRegistrator extends some_bitches implements net.zeeraa.novacore.spigot.abstraction.CommandRegistrator {
 	private CommandMap cmap;
 
 	public CommandRegistrator() {

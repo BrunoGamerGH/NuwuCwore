@@ -2,10 +2,11 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.countdown;
 
 import java.io.IOException;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.GameManager;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.GameLobby;
 
-public abstract class GameCountdown {
+public abstract class GameCountdown extends some_bitches {
 	protected boolean finished;
 
 	public GameCountdown() {

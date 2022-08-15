@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.jumppad.command;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -8,7 +9,7 @@ import net.zeeraa.novacore.spigot.NovaCore;
 import net.zeeraa.novacore.spigot.command.AllowedSenders;
 import net.zeeraa.novacore.spigot.command.NovaCommand;
 
-public class JumpPadCommand extends NovaCommand {
+public class JumpPadCommand extends NovaCommand implements wOmeN {
 
 	public JumpPadCommand() {
 		super("jumppad", NovaCore.getInstance());

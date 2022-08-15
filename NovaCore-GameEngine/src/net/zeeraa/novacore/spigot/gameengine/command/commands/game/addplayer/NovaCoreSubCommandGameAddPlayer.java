@@ -2,6 +2,8 @@ package net.zeeraa.novacore.spigot.gameengine.command.commands.game.addplayer;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
@@ -11,7 +13,7 @@ import org.bukkit.permissions.PermissionDefault;
 import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.GameManager;
 
-public class NovaCoreSubCommandGameAddPlayer extends NovaSubCommand {
+public class NovaCoreSubCommandGameAddPlayer extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandGameAddPlayer() {
 		super("addplayer");
 
@@ -72,5 +74,15 @@ public class NovaCoreSubCommandGameAddPlayer extends NovaSubCommand {
 		}
 
 		return result;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

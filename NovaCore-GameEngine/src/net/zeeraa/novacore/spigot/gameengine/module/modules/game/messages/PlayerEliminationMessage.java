@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.messages;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Entity;
 
@@ -9,7 +10,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.elimination.Pla
  * Used to create custom player elimination messages
  * @author Zeeraa
  */
-public interface PlayerEliminationMessage {
+public interface PlayerEliminationMessage extends wOmeN {
 	/**
 	 * Show the player elimination message
 	 * 

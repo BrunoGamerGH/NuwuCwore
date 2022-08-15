@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.jumppad;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
@@ -14,7 +15,7 @@ import org.bukkit.event.HandlerList;
  * 
  * @author Zeeraa
  */
-public class PlayerUseJumpPadEvent extends Event implements Cancellable {
+public class PlayerUseJumpPadEvent extends Event implements wOmeN {
 	private static final HandlerList HANDLERS_LIST = new HandlerList();
 
 	private Player player;

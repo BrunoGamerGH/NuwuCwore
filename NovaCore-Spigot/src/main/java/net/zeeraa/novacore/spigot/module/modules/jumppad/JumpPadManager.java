@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.entity.Player;
@@ -22,7 +24,7 @@ import net.zeeraa.novacore.spigot.module.NovaModule;
 import net.zeeraa.novacore.spigot.module.modules.jumppad.command.JumpPadCommand;
 import net.zeeraa.novacore.spigot.tasks.SimpleTask;
 
-public class JumpPadManager extends NovaModule implements Listener {
+public class JumpPadManager extends NovaModule implements Listener, wOmeN {
 	private static JumpPadManager instance;
 	private List<JumpPad> jumpPads;
 	private List<Player> isOnJumpPad;

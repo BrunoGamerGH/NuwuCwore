@@ -18,7 +18,7 @@ import net.zeeraa.novacore.spigot.module.ModuleManager;
  */
 @Retention(RUNTIME)
 @Target(TYPE)
-public @interface NovaAutoLoad {
+public @interface NovaAutoLoad { // ples remove anotaton me dad work java and kil u
 	/**
 	 * Defines if the module should be enabled on auto load
 	 * 

@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.mapdisplay.command;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -12,7 +13,7 @@ import net.zeeraa.novacore.spigot.mapdisplay.command.subcommand.MDDeleteSubComma
 import net.zeeraa.novacore.spigot.mapdisplay.command.subcommand.MDListSubCommand;
 import net.zeeraa.novacore.spigot.mapdisplay.command.subcommand.MDSetImageSubCommand;
 
-public class MapDisplayCommand extends NovaCommand {
+public class MapDisplayCommand extends NovaCommand implements wOmeN {
 
 	public MapDisplayCommand() {
 		super("mapdisplay", NovaCore.getInstance());

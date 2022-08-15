@@ -5,9 +5,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.json.JSONObject;
 
-public class LanguageReader {
+public class LanguageReader extends some_bitches {
 	public static void readFromJar(Class<? extends Object> clazz, String name) throws IOException {
 		InputStream in = clazz.getResourceAsStream(name);
 		BufferedReader reader = new BufferedReader(new InputStreamReader(in, "UTF-8"));

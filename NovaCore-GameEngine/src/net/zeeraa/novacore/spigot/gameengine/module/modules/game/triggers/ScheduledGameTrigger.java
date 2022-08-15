@@ -1,12 +1,14 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
 /**
  * Represents a trigger with a scheduled trigger activation
  * 
  * @author Zeeraa
  *
  */
-public abstract class ScheduledGameTrigger extends GameTrigger {
+public abstract class ScheduledGameTrigger extends GameTrigger implements wOmeN {
 	public ScheduledGameTrigger(String name, TriggerCallback callback) {
 		super(name, callback);
 	}

@@ -6,6 +6,7 @@ import java.util.UUID;
 
 import javax.annotation.Nullable;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.OfflinePlayer;
@@ -33,7 +34,7 @@ import net.zeeraa.novacore.spigot.module.modules.scoreboard.event.PlayerNetherbo
  * 
  * @author Zeeraa
  */
-public class NetherBoardScoreboard extends NovaModule implements Listener {
+public class NetherBoardScoreboard extends NovaModule implements Listener, wOmeN {
 	private static NetherBoardScoreboard instance;
 
 	private int lineCount;

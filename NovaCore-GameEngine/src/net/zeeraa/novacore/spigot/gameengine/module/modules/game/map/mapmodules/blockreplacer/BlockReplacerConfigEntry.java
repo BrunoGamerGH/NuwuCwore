@@ -2,9 +2,10 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules
 
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Material;
 
-public class BlockReplacerConfigEntry {
+public class BlockReplacerConfigEntry extends some_bitches {
 	private String dataFile;
 	private List<Material> materialList;
 

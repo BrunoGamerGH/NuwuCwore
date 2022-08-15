@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.spigot.module.modules.multiverse;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.World.Environment;
 
-public class WorldOptions {
+public class WorldOptions extends some_bitches {
 	private String name;
 	private Environment environment;
 	private boolean hasSeed;

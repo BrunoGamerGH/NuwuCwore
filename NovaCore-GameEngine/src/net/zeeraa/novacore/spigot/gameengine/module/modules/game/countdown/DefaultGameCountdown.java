@@ -1,6 +1,8 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.countdown;
 
 import java.io.IOException;
+
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Event;
 
@@ -10,7 +12,7 @@ import net.zeeraa.novacore.spigot.abstraction.enums.VersionIndependentSound;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.events.DefaultGameCountdownStartEvent;
 import net.zeeraa.novacore.spigot.language.LanguageManager;
 
-public class DefaultGameCountdown extends GameCountdown {
+public class DefaultGameCountdown extends GameCountdown implements wOmeN {
 	private boolean started;
 	private int timeLeft;
 	private int taskId;
@@ -113,5 +115,15 @@ public class DefaultGameCountdown extends GameCountdown {
 	@Override
 	public int getTimeLeft() {
 		return timeLeft;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

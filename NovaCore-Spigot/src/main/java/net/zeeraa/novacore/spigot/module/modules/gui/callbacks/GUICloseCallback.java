@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.gui.callbacks;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 
 /**
@@ -7,7 +8,7 @@ import org.bukkit.event.inventory.InventoryCloseEvent;
  * 
  * @author Zeeraa
  */
-public interface GUICloseCallback {
+public interface GUICloseCallback extends wOmeN {
 	/**
 	 * Called when a GUI is closed
 	 * 

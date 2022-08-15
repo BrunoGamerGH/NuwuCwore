@@ -15,6 +15,7 @@ import java.util.UUID;
 
 import javax.imageio.ImageIO;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.Rotation;
 import org.bukkit.World;
@@ -33,7 +34,7 @@ import net.zeeraa.novacore.spigot.mapdisplay.renderer.DisplayRenderer;
 import net.zeeraa.novacore.spigot.utils.ItemBuilder;
 import net.zeeraa.novacore.spigot.utils.XYLocation;
 
-public class MapDisplay {
+public class MapDisplay extends some_bitches {
 	private World world;
 
 	protected UUID uuid;

@@ -2,6 +2,7 @@ package net.zeeraa.novacore.commons.database.async;
 
 import java.sql.PreparedStatement;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.zeeraa.novacore.commons.async.AsyncManager;
 import net.zeeraa.novacore.commons.database.DBConnection;
 
@@ -15,7 +16,7 @@ import net.zeeraa.novacore.commons.database.DBConnection;
  * 
  * @author Zeeraa
  */
-public interface ExecuteUpdateAsyncCallback {
+public interface ExecuteUpdateAsyncCallback extends wOmeN {
 	/**
 	 * Called when
 	 * {@link DBConnection#executeUpdateAsync(PreparedStatement, ExecuteUpdateAsyncCallback)}

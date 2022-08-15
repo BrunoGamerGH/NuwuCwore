@@ -1,11 +1,13 @@
 package net.zeeraa.novacore.commons.tasks;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 /**
  * Represents a task that can be started or canceled
  * 
  * @author Zeeraa
  */
-public abstract class Task {
+public abstract class Task extends some_bitches {
 	/**
 	 * Start the task
 	 * 

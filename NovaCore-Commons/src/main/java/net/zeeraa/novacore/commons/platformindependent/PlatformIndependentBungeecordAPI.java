@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.commons.platformindependent;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
 import java.util.UUID;
 
 /**
@@ -7,7 +9,7 @@ import java.util.UUID;
  * 
  * @author Zeeraa
  */
-public interface PlatformIndependentBungeecordAPI {
+public interface PlatformIndependentBungeecordAPI extends wOmeN {
 	/**
 	 * Try to send a player by their {@link UUID} to a server by its name
 	 * 

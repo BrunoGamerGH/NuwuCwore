@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.debug;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -8,7 +9,7 @@ import net.zeeraa.novacore.spigot.NovaCore;
 import net.zeeraa.novacore.spigot.command.NovaCommand;
 import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 
-public class NovaDebugCommand extends NovaCommand {
+public class NovaDebugCommand extends NovaCommand implements wOmeN {
 
 	public NovaDebugCommand() {
 		super("novadebug", NovaCore.getInstance());

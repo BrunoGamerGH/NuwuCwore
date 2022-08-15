@@ -3,9 +3,10 @@ package net.zeeraa.novacore.spigot.language;
 import java.util.HashMap;
 import java.util.Map;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.json.JSONObject;
 
-public class Language {
+public class Language extends some_bitches {
 	private String languageCode;
 	private String displayName;
 	private Map<String, String> content;

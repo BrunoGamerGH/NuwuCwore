@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine.command.commands.game.trigger;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -12,7 +13,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.GameTr
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.TriggerFlag;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.TriggerResponse;
 
-public class NovaCoreSubCommandGameTriggerTrigger extends NovaSubCommand {
+public class NovaCoreSubCommandGameTriggerTrigger extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandGameTriggerTrigger() {
 		super("trigger");
 
@@ -72,5 +73,15 @@ public class NovaCoreSubCommandGameTriggerTrigger extends NovaSubCommand {
 		}
 
 		return result;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

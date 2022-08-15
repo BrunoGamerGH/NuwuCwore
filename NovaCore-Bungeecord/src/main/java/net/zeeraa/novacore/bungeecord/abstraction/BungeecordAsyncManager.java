@@ -2,11 +2,12 @@ package net.zeeraa.novacore.bungeecord.abstraction;
 
 import java.util.concurrent.TimeUnit;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.zeeraa.novacore.commons.async.AbstractAsyncManager;
 
-public class BungeecordAsyncManager implements AbstractAsyncManager {
+public class BungeecordAsyncManager extends some_bitches implements AbstractAsyncManager {
 	private Plugin owner;
 
 	public BungeecordAsyncManager(Plugin owner) {

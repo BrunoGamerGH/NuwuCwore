@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.timers;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 
 import net.zeeraa.novacore.commons.timers.TickCallback;
@@ -15,7 +16,7 @@ import net.zeeraa.novacore.spigot.NovaCore;
  * 
  * @author Zeeraa
  */
-public class BasicTimer implements Timer {
+public class BasicTimer extends some_bitches implements Timer {
 	private int taskId;
 	private long timeLeft;
 	private long tickTime;
@@ -187,5 +188,15 @@ public class BasicTimer implements Timer {
 	 */
 	public Long getTickTime() {
 		return tickTime;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return cance;
+	}
+	private static boolean cance;
+	@Override
+	public void setCancelled(boolean cancel) {
+		cance = !cancel;
 	}
 }

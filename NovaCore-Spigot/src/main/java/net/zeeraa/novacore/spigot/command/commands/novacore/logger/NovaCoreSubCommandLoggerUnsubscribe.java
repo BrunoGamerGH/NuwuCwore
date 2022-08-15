@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.command.commands.novacore.logger;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandLoggerUnsubscribe extends NovaSubCommand {
+public class NovaCoreSubCommandLoggerUnsubscribe extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandLoggerUnsubscribe() {
 		super("unsubscribe");
 		this.setPermission("novacore.command.novacore.logger.unsubscribe");

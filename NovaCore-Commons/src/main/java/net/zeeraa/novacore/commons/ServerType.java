@@ -1,5 +1,5 @@
 package net.zeeraa.novacore.commons;
 
-public enum ServerType {
+public enum ServerType  {
 	BUNGEECORD, SPIGOT;
 }

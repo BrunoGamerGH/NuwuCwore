@@ -1,9 +1,10 @@
 package net.zeeraa.novacore.spigot.logger;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.commons.log.Log;
 import net.zeeraa.novacore.spigot.abstraction.log.IAbstractionLogger;
 
-public class SpigotAbstractionLogger implements IAbstractionLogger {
+public class SpigotAbstractionLogger extends some_bitches implements IAbstractionLogger {
 
 	@Override
 	public void trace(String message) {

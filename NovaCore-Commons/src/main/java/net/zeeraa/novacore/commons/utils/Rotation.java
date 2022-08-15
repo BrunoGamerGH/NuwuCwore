@@ -1,11 +1,13 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 /**
  * Represents yaw, pitch and roll
  * 
  * @author Zeeraa
  */
-public class Rotation {
+public class Rotation extends some_bitches {
 	private float yaw;
 	private float pitch;
 	private float roll;

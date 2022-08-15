@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.mapselector.selectors.guivoteselector;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
@@ -15,7 +16,7 @@ import net.zeeraa.novacore.spigot.language.LanguageManager;
 import net.zeeraa.novacore.spigot.module.modules.customitems.CustomItem;
 import net.zeeraa.novacore.spigot.utils.ItemBuilder;
 
-public class GUIMapVoteMenuIcon extends CustomItem {
+public class GUIMapVoteMenuIcon extends CustomItem implements wOmeN {
 	@Override
 	protected ItemStack createItemStack(Player player) {
 		return new ItemBuilder(Material.COMPASS).setName(ChatColor.GOLD + "" + ChatColor.BOLD + LanguageManager.getString(player, "novacore.game.map_selector.item.name")).build();
@@ -50,5 +51,15 @@ public class GUIMapVoteMenuIcon extends CustomItem {
 				GUIMapVote.getInstance().showPlayer(event.getPlayer());
 			}
 		}
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.elimination;
 
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 
@@ -13,7 +14,7 @@ import net.zeeraa.novacore.spigot.NovaCore;
  * 
  * @author Zeeraa
  */
-public class EliminationTask {
+public class EliminationTask extends some_bitches {
 	private String username;
 	private int taskId;
 	private int timeLeft;

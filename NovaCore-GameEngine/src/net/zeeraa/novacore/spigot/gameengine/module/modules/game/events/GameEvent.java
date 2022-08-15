@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.events;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.event.Event;
 
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.Game;
@@ -9,7 +10,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.Game;
  * 
  * @author Zeeraa
  */
-public abstract class GameEvent extends Event {
+public abstract class GameEvent extends Event implements wOmeN {
 	private Game game;
 
 	public GameEvent(Game game) {

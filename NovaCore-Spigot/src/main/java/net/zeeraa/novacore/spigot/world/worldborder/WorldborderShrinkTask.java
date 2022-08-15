@@ -1,11 +1,12 @@
 package net.zeeraa.novacore.spigot.world.worldborder;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 import net.zeeraa.novacore.commons.log.Log;
 import net.zeeraa.novacore.spigot.NovaCore;
 
-public class WorldborderShrinkTask {
+public class WorldborderShrinkTask extends some_bitches {
 	private double centerX;
 	private double centerZ;
 

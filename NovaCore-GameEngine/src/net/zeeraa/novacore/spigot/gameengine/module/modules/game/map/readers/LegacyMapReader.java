@@ -5,6 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -23,7 +24,7 @@ import net.zeeraa.novacore.spigot.utils.LocationData;
  * @author Zeeraa
  * @since 2.0.0
  */
-public class LegacyMapReader extends MapReader {
+public class LegacyMapReader extends MapReader implements wOmeN {
 	public static final String NAME = "legacy";
 
 	public LegacyMapReader() {

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
@@ -23,7 +24,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandLoggerSet extends NovaSubCommand {
+public class NovaCoreSubCommandLoggerSet extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandLoggerSet() {
 		super("set");
 		this.setPermission("novacore.command.novacore.logger.set");

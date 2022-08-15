@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.event;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.event.HandlerList;
 
 import net.zeeraa.novacore.spigot.module.NovaModule;
@@ -9,7 +10,7 @@ import net.zeeraa.novacore.spigot.module.NovaModule;
  * 
  * @author Zeeraa
  */
-public class ModuleDisabledEvent extends ModuleEvent {
+public class ModuleDisabledEvent extends ModuleEvent implements wOmeN {
 	private static final HandlerList HANDLERS = new HandlerList();
 
 	public HandlerList getHandlers() {
@@ -22,5 +23,15 @@ public class ModuleDisabledEvent extends ModuleEvent {
 
 	public ModuleDisabledEvent(NovaModule module) {
 		super(module);
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

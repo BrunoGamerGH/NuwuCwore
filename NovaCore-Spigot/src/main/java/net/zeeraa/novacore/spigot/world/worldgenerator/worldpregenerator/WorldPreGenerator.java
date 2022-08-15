@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.world.worldgenerator.worldpregenerator;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 
@@ -13,7 +14,7 @@ import net.zeeraa.novacore.spigot.NovaCore;
  * 
  * @author Zeeraa
  */
-public class WorldPreGenerator {
+public class WorldPreGenerator extends some_bitches {
 	// ----- Settings -----
 	protected World world;
 

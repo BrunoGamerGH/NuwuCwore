@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.abstraction;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.entity.Player;
 
 import com.google.gson.JsonElement;
@@ -11,7 +12,7 @@ import io.netty.buffer.ByteBuf;
  * 
  * @since 1.1
  */
-public abstract class LabyModProtocol {
+public abstract class LabyModProtocol extends some_bitches {
 	protected static LabyModProtocol instance;
 
 	public static LabyModProtocol get() {

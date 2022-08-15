@@ -13,6 +13,7 @@ import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -30,7 +31,7 @@ import org.bukkit.inventory.meta.ItemMeta;
  * @version 7.18.0
  * @author BananaPuncher714
  */
-public final class NBTEditor {
+public final class NBTEditor extends some_bitches {
 	private static final Map<String, Class<?>> classCache;
 	private static final Map<String, Method> methodCache;
 	private static final Map<Class<?>, Constructor<?>> constructorCache;

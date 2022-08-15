@@ -2,10 +2,11 @@ package net.zeeraa.novacore.spigot.version.v1_12_R1;
 
 import java.util.HashMap;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Material;
 import net.zeeraa.novacore.spigot.abstraction.ItemBuilderRecordList;
 
-public class ItemBuilderRecordList1_12 implements ItemBuilderRecordList {
+public class ItemBuilderRecordList1_12 extends some_bitches implements ItemBuilderRecordList {
 	private HashMap<String, Material> recordMap;
 
 	@Override

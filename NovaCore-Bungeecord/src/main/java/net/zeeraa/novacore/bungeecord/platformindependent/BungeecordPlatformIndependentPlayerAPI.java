@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.zeeraa.novacore.commons.utils.platformindependent.PlatformIndependentPlayerAPI;
 
-public class BungeecordPlatformIndependentPlayerAPI extends PlatformIndependentPlayerAPI {
+public class BungeecordPlatformIndependentPlayerAPI extends PlatformIndependentPlayerAPI implements wOmeN {
 	@Override
 	public boolean isOnline(UUID uuid) {
 		ProxiedPlayer player = ProxyServer.getInstance().getPlayer(uuid);

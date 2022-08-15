@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules
 import java.util.HashMap;
 import java.util.Map;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -20,7 +21,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule.M
 import net.zeeraa.novacore.spigot.loottable.LootTable;
 import net.zeeraa.novacore.spigot.utils.LocationUtils;
 
-public class BlockLoot extends MapModule implements Listener {
+public class BlockLoot extends MapModule implements Listener, wOmeN {
 	private Map<Material, BlockLootData> materialData;
 	private Game game;
 

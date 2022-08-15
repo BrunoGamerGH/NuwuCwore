@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.util.Random;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Random;
  * 
  * @author Zeeraa
  */
-public class RandomGenerator {
+public class RandomGenerator extends some_bitches {
 	/**
 	 * This is used to generate numbers in a certain range
 	 * <p>

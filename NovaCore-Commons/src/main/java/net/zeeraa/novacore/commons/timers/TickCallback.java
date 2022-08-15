@@ -1,11 +1,13 @@
 package net.zeeraa.novacore.commons.timers;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
 /**
  * A callback that is called every time a timer counts down
  * 
  * @author Zeeraa
  */
-public interface TickCallback {
+public interface TickCallback extends wOmeN {
 	/**
 	 * 'Called when a timer counts down
 	 * 

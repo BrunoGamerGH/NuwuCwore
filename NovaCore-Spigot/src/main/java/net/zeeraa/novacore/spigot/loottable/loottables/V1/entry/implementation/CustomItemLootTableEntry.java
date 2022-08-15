@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.inventory.ItemStack;
 
 import net.zeeraa.novacore.commons.log.Log;
@@ -11,7 +12,7 @@ import net.zeeraa.novacore.spigot.loottable.LootTableManager;
 import net.zeeraa.novacore.spigot.loottable.loottables.V1.LootEntryV1;
 import net.zeeraa.novacore.spigot.module.modules.customitems.CustomItemManager;
 
-public class CustomItemLootTableEntry implements LootEntryV1 {
+public class CustomItemLootTableEntry extends some_bitches implements LootEntryV1 {
 	private String className;
 	private int minAmount;
 	private int maxAmount;

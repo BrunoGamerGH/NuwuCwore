@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game;
 
 import java.io.IOException;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
@@ -23,7 +24,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMapData
  * 
  * @author Zeeraa
  */
-public abstract class MapGame extends Game {
+public abstract class MapGame extends Game implements wOmeN {
 	private GameMap activeMap;
 
 	public MapGame(Plugin plugin) {

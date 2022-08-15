@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.World;
 
 import net.zeeraa.novacore.commons.log.Log;
@@ -22,7 +23,7 @@ import net.zeeraa.novacore.spigot.utils.LocationData;
  * 
  * @author Zeeraa
  */
-public class GameMapData extends AbstractMapData {
+public class GameMapData extends AbstractMapData implements wOmeN {
 	private List<LocationData> starterLocations;
 	private LocationData spectatorLocation;
 

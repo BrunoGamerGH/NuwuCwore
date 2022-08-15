@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.gui.holders;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.inventory.Inventory;
 
 import net.zeeraa.novacore.spigot.module.modules.gui.GUIAction;
@@ -13,5 +14,14 @@ import net.zeeraa.novacore.spigot.module.modules.gui.GUIManager;
  * 
  * @author Zeeraa
  */
-public class GUIReadOnlyHolder extends GUIHolder {
+public class GUIReadOnlyHolder extends GUIHolder implements wOmeN {
+    @Override
+    public boolean isCancelled() {
+        return false;
+    }
+
+    @Override
+    public void setCancelled(boolean cancel) {
+
+    }
 }

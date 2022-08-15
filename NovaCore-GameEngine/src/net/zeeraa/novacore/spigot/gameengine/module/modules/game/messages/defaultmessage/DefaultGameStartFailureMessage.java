@@ -16,4 +16,14 @@ public class DefaultGameStartFailureMessage implements GameStartFailureMessage {
 		// occurred while trying to start the game");
 		LanguageManager.broadcast("novacore.game.lobby.start_exception");
 	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
+	}
 }

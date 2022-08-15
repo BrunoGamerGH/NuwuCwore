@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map;
 
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Location;
 import org.bukkit.World;
 
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.gameengine.utils.AbstractMapData;
  * 
  * @author Zeeraa
  */
-public class GameMap extends AbstractMap {
+public class GameMap extends AbstractMap implements wOmeN {
 	private World world;
 
 	private List<Location> starterLocations;

@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.compass;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 
@@ -10,7 +11,7 @@ import org.bukkit.entity.Player;
  * 
  * @author Zeeraa
  */
-public interface CompassTrackerTarget {
+public interface CompassTrackerTarget extends wOmeN {
 	/**
 	 * Get a location for a players compass to track
 	 * 

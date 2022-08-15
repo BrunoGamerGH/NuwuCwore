@@ -10,7 +10,7 @@ import net.md_5.bungee.api.ChatColor;
  * 
  * @author Zeeraa
  */
-public enum LogLevel {
+public enum LogLevel { // please remove enums my dad works at java and will kill you (real)
 	/**
 	 * This log level is used to mute all log levels. This level should never be
 	 * logged to
@@ -29,7 +29,7 @@ public enum LogLevel {
 	 * Anything that can potentially cause application oddities
 	 */
 	WARN(3),
-	/*
+	/**
 	 * Same level as info but with a success message instead
 	 */
 	SUCCESS(4),

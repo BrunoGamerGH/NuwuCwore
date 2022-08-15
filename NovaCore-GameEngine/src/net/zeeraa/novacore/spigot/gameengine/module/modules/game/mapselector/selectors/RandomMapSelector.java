@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.mapselector.se
 
 import java.util.Random;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMapData;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.mapselector.MapSelector;
 
@@ -10,7 +11,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.mapselector.Map
  * 
  * @author Zeeraa
  */
-public class RandomMapSelector extends MapSelector {
+public class RandomMapSelector extends MapSelector implements wOmeN {
 	@Override
 	public GameMapData getMapToUse() {
 		if (maps.size() == 0) {

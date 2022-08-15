@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.event;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.event.HandlerList;
 
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.GameTrigger;
@@ -9,7 +10,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.GameTr
  * 
  * @author Zeeraa
  */
-public class GameTriggerTriggerEvent extends GameTriggerEvent {
+public class GameTriggerTriggerEvent extends GameTriggerEvent implements wOmeN {
 	private static final HandlerList HANDLERS_LIST = new HandlerList();
 
 	public GameTriggerTriggerEvent(GameTrigger trigger) {
@@ -23,5 +24,15 @@ public class GameTriggerTriggerEvent extends GameTriggerEvent {
 
 	public static HandlerList getHandlerList() {
 		return HANDLERS_LIST;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

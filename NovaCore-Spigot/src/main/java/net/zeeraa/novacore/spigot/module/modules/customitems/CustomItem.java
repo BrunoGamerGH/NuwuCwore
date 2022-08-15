@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.module.modules.customitems;
 
 import javax.annotation.Nullable;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.block.BlockBreakEvent;
@@ -12,7 +13,7 @@ import org.bukkit.inventory.ItemStack;
 
 import io.github.bananapuncher714.nbteditor.NBTEditor;
 
-public abstract class CustomItem {
+public abstract class CustomItem extends some_bitches {
 	/**
 	 * Called when a custom item is spawned in by a player
 	 * <p>

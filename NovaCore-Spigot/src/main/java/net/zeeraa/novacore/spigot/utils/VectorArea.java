@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.util.Vector;
 import org.json.JSONObject;
 
 import net.zeeraa.novacore.commons.utils.RandomGenerator;
 
-public class VectorArea {
+public class VectorArea extends some_bitches {
 	protected Vector position1;
 	protected Vector position2;
 
@@ -29,8 +30,8 @@ public class VectorArea {
 	}
 
 	public VectorArea(Vector position1, Vector position2) {
-		this.position1 = new Vector((position1.getX() < position2.getX() ? position1.getX() : position2.getX()), (position1.getY() < position2.getY() ? position1.getY() : position2.getY()), (position1.getZ() < position2.getZ() ? position1.getZ() : position2.getZ()));
-		this.position2 = new Vector((position1.getX() > position2.getX() ? position1.getX() : position2.getX()), (position1.getY() > position2.getY() ? position1.getY() : position2.getY()), (position1.getZ() > position2.getZ() ? position1.getZ() : position2.getZ()));
+		this.position1 = new Vector((Math.min(position1.getX(), position2.getX())), (Math.min(position1.getY(), position2.getY())), (Math.min(position1.getZ(), position2.getZ())));
+		this.position2 = new Vector((Math.max(position1.getX(), position2.getX())), (Math.max(position1.getY(), position2.getY())), (Math.max(position1.getZ(), position2.getZ())));
 	}
 
 	public VectorArea(int x1, int y1, int z1, int x2, int y2, int z2) {

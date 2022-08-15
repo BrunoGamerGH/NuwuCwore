@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.command.commands.gamelobby;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -11,7 +12,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.GameManager;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.GameLobby;
 import net.zeeraa.novacore.spigot.module.ModuleManager;
 
-public class SCLeaveQueue extends NovaSubCommand {
+public class SCLeaveQueue extends NovaSubCommand implements wOmeN {
 	public SCLeaveQueue() {
 		super("leavequeue");
 
@@ -50,5 +51,15 @@ public class SCLeaveQueue extends NovaSubCommand {
 			sender.sendMessage(ChatColor.RED + "GameManager not enabled");
 		}
 		return false;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

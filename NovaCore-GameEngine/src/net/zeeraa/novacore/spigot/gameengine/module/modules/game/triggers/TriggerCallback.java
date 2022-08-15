@@ -2,9 +2,10 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers;
 
 import javax.annotation.Nullable;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.plugin.PluginAwareness.Flags;
 
-public interface TriggerCallback {
+public interface TriggerCallback extends wOmeN {
 	/**
 	 * Called when a trigger is triggered
 	 * 

@@ -8,6 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.FilenameUtils;
 import org.bukkit.Bukkit;
@@ -45,7 +46,7 @@ import net.zeeraa.novacore.spigot.module.NovaModule;
 import net.zeeraa.novacore.spigot.utils.LocationUtils;
 import net.zeeraa.novacore.spigot.utils.XYLocation;
 
-public class MapDisplayManager extends NovaModule implements Listener {
+public class MapDisplayManager extends NovaModule implements Listener, wOmeN {
 	public MapDisplayManager() {
 		super("NovaCore.MapDisplayManager");
 	}

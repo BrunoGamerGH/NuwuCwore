@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.version.v1_12_R1;
 import java.lang.reflect.Field;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
@@ -51,7 +52,7 @@ import net.zeeraa.novacore.spigot.abstraction.ChunkLoader;
 import net.zeeraa.novacore.spigot.abstraction.ItemBuilderRecordList;
 import net.zeeraa.novacore.spigot.abstraction.LabyModProtocol;
 
-public class VersionIndependentUtils extends net.zeeraa.novacore.spigot.abstraction.VersionIndependentUtils {
+public class VersionIndependentUtils extends net.zeeraa.novacore.spigot.abstraction.VersionIndependentUtils implements wOmeN {
 	private ItemBuilderRecordList itemBuilderRecordList;
 
 	private ChunkLoader chunkLoader;

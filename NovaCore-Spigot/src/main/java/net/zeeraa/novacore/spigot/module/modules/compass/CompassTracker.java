@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.compass;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
@@ -20,7 +21,7 @@ import net.zeeraa.novacore.spigot.module.modules.compass.event.CompassTrackingEv
  * 
  * @author Zeeraa
  */
-public class CompassTracker extends NovaModule implements Listener {
+public class CompassTracker extends NovaModule implements Listener, wOmeN {
 	public CompassTracker() {
 		super("NovaCore.CompassTracker");
 	}

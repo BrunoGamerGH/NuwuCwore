@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.command.AllowedSenders;
 import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 import net.zeeraa.novacore.spigot.module.modules.customitems.CustomItemManager;
 
-public class NovaCoreSubCommandGiveCustomItem extends NovaSubCommand {
+public class NovaCoreSubCommandGiveCustomItem extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandGiveCustomItem() {
 		super("givecustomitem");
 

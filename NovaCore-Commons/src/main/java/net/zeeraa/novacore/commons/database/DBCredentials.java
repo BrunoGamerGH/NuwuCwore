@@ -1,11 +1,13 @@
 package net.zeeraa.novacore.commons.database;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 /**
  * Represents the credentials to use when connecting to a database
  * 
  * @author Zeeraa
  */
-public class DBCredentials {
+public class DBCredentials extends some_bitches {
 	private String driver;
 	private String host;
 	private String username;

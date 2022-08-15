@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.utils;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.json.JSONObject;
@@ -16,7 +17,7 @@ import org.json.JSONObject;
  * 
  * @author Zeeraa
  */
-public class LocationData {
+public class LocationData extends some_bitches {
 	protected double x;
 	protected double y;
 	protected double z;

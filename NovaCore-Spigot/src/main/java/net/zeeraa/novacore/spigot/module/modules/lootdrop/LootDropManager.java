@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -37,7 +38,7 @@ import net.zeeraa.novacore.spigot.module.modules.lootdrop.particles.LootdropPart
 import net.zeeraa.novacore.spigot.tasks.SimpleTask;
 import net.zeeraa.novacore.spigot.utils.LocationUtils;
 
-public class LootDropManager extends NovaModule implements Listener {
+public class LootDropManager extends NovaModule implements Listener, wOmeN {
 	private static LootDropManager instance;
 
 	private List<LootDrop> chests;
@@ -62,14 +63,14 @@ public class LootDropManager extends NovaModule implements Listener {
 	public static LootDropManager getInstance() {
 		return instance;
 	}
-	
+
 	public LootDropManager() {
 		super("NovaCore.LootDropManager");
 	}
 
 	/**
 	 * Get the loot drop texture url
-	 * 
+	 *
 	 * @return Loot drop texture url
 	 */
 	public String getLootDropTexture() {
@@ -80,7 +81,7 @@ public class LootDropManager extends NovaModule implements Listener {
 	 * Set the loot drop texture to use.
 	 * <p>
 	 * Warning: Setting this to an invalid value will cause the game to crash
-	 * 
+	 *
 	 * @param lootDropTexture The new texture to use
 	 */
 	public void setLootDropTexture(String lootDropTexture) {
@@ -167,7 +168,7 @@ public class LootDropManager extends NovaModule implements Listener {
 
 	/**
 	 * Set the spawn message when a loot drop spawns
-	 * 
+	 *
 	 * @param spawnMessage The custom {@link LootDropSpawnMessage} to use
 	 */
 	public void setSpawnMessage(LootDropSpawnMessage spawnMessage) {
@@ -176,11 +177,11 @@ public class LootDropManager extends NovaModule implements Listener {
 
 	/**
 	 * Spawn a loot drop
-	 * 
+	 *
 	 * @param location  The {@link Location} to spawn the loot drop at
 	 * @param lootTable The name of the {@link LootTable} to use
 	 * @return <code>true</code> on success, <code>false</code> if can't spawn or if
-	 *         the event is canceled
+	 * the event is canceled
 	 */
 	public boolean spawnDrop(Location location, String lootTable) {
 		return spawnDrop(location, lootTable, true);
@@ -188,12 +189,12 @@ public class LootDropManager extends NovaModule implements Listener {
 
 	/**
 	 * Spawn a loot drop
-	 * 
+	 *
 	 * @param location  The {@link Location} to spawn the loot drop at
 	 * @param lootTable The name of the {@link LootTable} to use
 	 * @param announce  <code>true</code> to announce that a loot drop is spawning
 	 * @return <code>true</code> on success, <code>false</code> if can't spawn or if
-	 *         the event is canceled
+	 * the event is canceled
 	 */
 	public boolean spawnDrop(Location location, String lootTable, boolean announce) {
 		if (canSpawnAt(location)) {

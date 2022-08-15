@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.scoreboard.event;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
@@ -12,7 +13,7 @@ import org.bukkit.event.HandlerList;
  * 
  * @author Zeeraa
  */
-public class PlayerNetherboardScoreboardInitEvent extends Event {
+public class PlayerNetherboardScoreboardInitEvent extends Event implements wOmeN {
 	private static final HandlerList HANDLERS = new HandlerList();
 
 	public HandlerList getHandlers() {
@@ -56,5 +57,15 @@ public class PlayerNetherboardScoreboardInitEvent extends Event {
 	 */
 	public void setTitle(String title) {
 		this.title = title;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

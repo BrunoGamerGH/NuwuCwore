@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.util.UUID;
 
 /**
@@ -7,7 +9,7 @@ import java.util.UUID;
  * 
  * @author Zeeraa
  */
-public class UUIDUtils {
+public class UUIDUtils extends some_bitches {
 	/**
 	 * Turn the short uuids used by the mojang api to a full uuid
 	 * 

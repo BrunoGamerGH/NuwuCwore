@@ -5,6 +5,7 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.io.IOException;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -15,7 +16,7 @@ import net.zeeraa.novacore.spigot.command.AllowedSenders;
 import net.zeeraa.novacore.spigot.command.NovaCommand;
 import net.zeeraa.novacore.spigot.utils.BukkitSerailization;
 
-public class CopyItemBase64 extends NovaCommand {
+public class CopyItemBase64 extends NovaCommand implements wOmeN {
 	public CopyItemBase64(Plugin owner) {
 		super("copyitembase64", owner);
 
@@ -49,5 +50,15 @@ public class CopyItemBase64 extends NovaCommand {
 		player.sendMessage(ChatColor.GREEN + "ok");
 
 		return true;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

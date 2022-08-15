@@ -1,12 +1,13 @@
 package net.zeeraa.novacore.spigot.loottable;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.json.JSONObject;
 
 /**
  * Represents a class that is used to load a {@link LootTable}
  * @author Zeeraa
  */
-public interface LootTableLoader {
+public interface LootTableLoader extends wOmeN {
 	/**
 	 * Read loot table from file
 	 * 

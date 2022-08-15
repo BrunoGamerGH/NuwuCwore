@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.utils;
 
 import javax.annotation.Nullable;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -21,7 +22,7 @@ import net.zeeraa.novacore.spigot.module.modules.multiverse.MultiverseWorld;
  * 
  * @author Zeeraa
  */
-public class LocationUtils {
+public class LocationUtils extends some_bitches {
 	public static boolean isOutsideOfBorder(Location location) {
 		WorldBorder border = location.getWorld().getWorldBorder();
 		double size = border.getSize() / 2;

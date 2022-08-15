@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.command.commands.game.start;
 
 import java.io.IOException;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -15,7 +16,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.GameLobby;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandForceStartGame extends NovaSubCommand {
+public class NovaCoreSubCommandForceStartGame extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandForceStartGame() {
 		super("forcestart");
 
@@ -68,5 +69,15 @@ public class NovaCoreSubCommandForceStartGame extends NovaSubCommand {
 			sender.sendMessage(ChatColor.RED + "GameManager is not enabled");
 		}
 		return false;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

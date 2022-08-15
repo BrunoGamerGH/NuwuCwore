@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
 import org.json.JSONArray;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.Game;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule.MapModule;
 import net.zeeraa.novacore.spigot.utils.VectorArea;
 
-public class Chunkloader extends MapModule {
+public class Chunkloader extends MapModule implements wOmeN {
 	private List<Chunk> chunks;
 	private List<VectorArea> areas;
 

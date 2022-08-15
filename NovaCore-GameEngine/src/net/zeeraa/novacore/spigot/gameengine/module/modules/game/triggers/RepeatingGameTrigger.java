@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.zeeraa.novacore.commons.NovaCommons;
 import net.zeeraa.novacore.commons.tasks.Task;
 
@@ -10,7 +11,7 @@ import net.zeeraa.novacore.commons.tasks.Task;
  * @author Zeeraa
  *
  */
-public class RepeatingGameTrigger extends ScheduledGameTrigger {
+public class RepeatingGameTrigger extends ScheduledGameTrigger implements wOmeN {
 	private long delay;
 	private long period;
 
@@ -132,5 +133,15 @@ public class RepeatingGameTrigger extends ScheduledGameTrigger {
 
 	public long getTicksLeft() {
 		return ticksLeft;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

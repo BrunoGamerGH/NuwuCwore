@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.utils;
 
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
@@ -15,7 +16,7 @@ import net.zeeraa.novacore.spigot.NovaCore;
  * 
  * @author Zeeraa
  */
-public class BungeecordUtils {
+public class BungeecordUtils extends some_bitches {
 	/**
 	 * Send a player to another server in a bungeecord setup
 	 * 

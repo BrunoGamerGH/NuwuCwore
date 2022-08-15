@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.mapdisplay.event;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.World;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
@@ -11,7 +12,7 @@ import net.zeeraa.novacore.spigot.mapdisplay.MapDisplay;
  * 
  * @author Zeeraa
  */
-public class MapDisplayLoadedEvent extends Event {
+public class MapDisplayLoadedEvent extends Event implements wOmeN {
 	private static final HandlerList HANDLERS = new HandlerList();
 
 	private MapDisplay display;
@@ -44,5 +45,15 @@ public class MapDisplayLoadedEvent extends Event {
 
 	public static HandlerList getHandlerList() {
 		return HANDLERS;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

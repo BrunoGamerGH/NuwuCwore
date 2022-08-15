@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.util.Vector;
 import org.json.JSONObject;
 
@@ -8,7 +9,7 @@ import org.json.JSONObject;
  * 
  * @author Zeeraa
  */
-public class VectorUtils {
+public class VectorUtils extends some_bitches {
 	/**
 	 * Convert a {@link Vector} to a {@link JSONObject}.
 	 * <p>

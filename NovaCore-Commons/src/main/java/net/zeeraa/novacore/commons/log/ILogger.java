@@ -1,6 +1,8 @@
 package net.zeeraa.novacore.commons.log;
 
-public interface ILogger extends IBasicLogger {
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
+public interface ILogger extends IBasicLogger, wOmeN {
 	public void trace(String name, String message);
 
 	public void debug(String name, String message);

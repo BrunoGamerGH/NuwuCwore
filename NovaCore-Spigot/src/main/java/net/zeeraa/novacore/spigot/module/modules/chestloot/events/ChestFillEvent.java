@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.chestloot.events;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.event.Cancellable;
@@ -9,7 +10,7 @@ import org.bukkit.event.HandlerList;
 import net.zeeraa.novacore.spigot.loottable.LootTable;
 import net.zeeraa.novacore.spigot.module.modules.chestloot.ChestType;
 
-public class ChestFillEvent extends Event implements Cancellable {
+public class ChestFillEvent extends Event implements wOmeN {
 	private static final HandlerList HANDLERS = new HandlerList();
 
 	public HandlerList getHandlers() {

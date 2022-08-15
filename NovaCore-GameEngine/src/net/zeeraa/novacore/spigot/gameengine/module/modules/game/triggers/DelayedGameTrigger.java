@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import net.zeeraa.novacore.commons.timers.TickCallback;
 import net.zeeraa.novacore.commons.utils.Callback;
 import net.zeeraa.novacore.spigot.timers.BasicTimer;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.timers.BasicTimer;
  * @author Zeeraa
  *
  */
-public class DelayedGameTrigger extends ScheduledGameTrigger {
+public class DelayedGameTrigger extends ScheduledGameTrigger implements wOmeN {
 	private long delay;
 
 	private BasicTimer timer;
@@ -80,6 +81,16 @@ public class DelayedGameTrigger extends ScheduledGameTrigger {
 
 		timer = new BasicTimer(delay, 1);
 		timer.addFinishCallback(new Callback() {
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
 			@Override
 			public void execute() {
 				stop();

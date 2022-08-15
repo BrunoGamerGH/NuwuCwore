@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.util.Vector;
@@ -10,7 +11,7 @@ import org.bukkit.util.Vector;
  * @author Zeeraa
  *
  */
-public class LocationOffset {
+public class LocationOffset extends some_bitches {
 	protected double x;
 	protected double y;
 	protected double z;

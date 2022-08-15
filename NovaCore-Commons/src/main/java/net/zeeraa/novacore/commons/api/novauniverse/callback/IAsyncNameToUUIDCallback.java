@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.commons.api.novauniverse.callback;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import java.util.UUID;
 
-public interface IAsyncNameToUUIDCallback {
+public interface IAsyncNameToUUIDCallback extends wOmeN {
 	/**
 	 * Called when the request has finished.
 	 * <p>

@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.event;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.event.Event;
 
 import net.zeeraa.novacore.spigot.module.NovaModule;
@@ -9,7 +10,7 @@ import net.zeeraa.novacore.spigot.module.NovaModule;
  * 
  * @author Zeeraa
  */
-public abstract class ModuleEvent extends Event {
+public abstract class ModuleEvent extends Event implements wOmeN {
 	private NovaModule module;
 
 	public ModuleEvent(NovaModule module) {

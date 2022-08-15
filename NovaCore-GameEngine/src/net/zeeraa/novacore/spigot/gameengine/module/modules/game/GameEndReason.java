@@ -5,7 +5,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game;
  * 
  * @author Zeeraa
  */
-public enum GameEndReason {
+public enum GameEndReason { // please delete enums my dad works at java and will kill you
 	/**
 	 * Used when there was no reason specified
 	 */

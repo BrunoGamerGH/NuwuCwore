@@ -1,11 +1,12 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules.settime;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.json.JSONObject;
 
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.Game;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule.MapModule;
 
-public class SetTime extends MapModule {
+public class SetTime extends MapModule implements wOmeN {
 	private int time;
 
 	public SetTime(JSONObject json) {

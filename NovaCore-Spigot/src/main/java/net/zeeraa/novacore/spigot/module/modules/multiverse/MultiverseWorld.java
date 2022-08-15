@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.spigot.module.modules.multiverse;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.World;
 
-public class MultiverseWorld {
+public class MultiverseWorld extends some_bitches {
 	private String name;
 	private World world;
 	private WorldUnloadOption unloadOption;

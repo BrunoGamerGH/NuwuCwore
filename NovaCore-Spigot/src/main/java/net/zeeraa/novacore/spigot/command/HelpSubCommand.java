@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.command;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -13,7 +14,7 @@ import org.bukkit.permissions.PermissionDefault;
  * 
  * @author Zeeraa
  */
-public class HelpSubCommand extends NovaSubCommand {
+public class HelpSubCommand extends NovaSubCommand implements wOmeN {
 
 	public HelpSubCommand() {
 		super("help");

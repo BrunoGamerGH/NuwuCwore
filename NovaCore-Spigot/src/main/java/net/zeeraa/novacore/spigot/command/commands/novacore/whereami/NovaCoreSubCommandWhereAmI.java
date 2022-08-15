@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.command.commands.novacore.whereami;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -13,7 +14,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandWhereAmI extends NovaSubCommand {
+public class NovaCoreSubCommandWhereAmI extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandWhereAmI() {
 		super("whereami");
 

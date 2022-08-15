@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.json.JSONObject;
 
 import net.zeeraa.novacore.commons.log.Log;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMap;
  * 
  * @author Zeeraa
  */
-public abstract class MapModule {
+public abstract class MapModule extends some_bitches {
 	private String name;
 	private boolean critical;
 

@@ -1,8 +1,9 @@
 package net.zeeraa.novacore.commons.api.novauniverse.data;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.json.JSONObject;
 
-public class MojangProfileProperty {
+public class MojangProfileProperty extends some_bitches {
 	private String name;
 	private String value;
 

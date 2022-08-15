@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.command.commands.novacore.logger;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.PermissionDefault;
@@ -13,7 +14,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandLogger extends NovaSubCommand {
+public class NovaCoreSubCommandLogger extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandLogger() {
 		super("logger");
 		

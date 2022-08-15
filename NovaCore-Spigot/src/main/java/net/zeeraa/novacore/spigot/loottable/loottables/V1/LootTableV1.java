@@ -7,6 +7,7 @@ import java.util.Map;
 import java.util.Random;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.inventory.ItemStack;
 
 import net.zeeraa.novacore.spigot.loottable.LootTable;
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.spigot.loottable.loottables.V1.entry.implementation.I
  * 
  * @author Zeeraa
  */
-public class LootTableV1 extends LootTable {
+public class LootTableV1 extends LootTable implements wOmeN {
 	private Map<UUID, LootEntryV1> items = new HashMap<UUID, LootEntryV1>();
 	private List<UUID> lootChance = new ArrayList<UUID>();
 

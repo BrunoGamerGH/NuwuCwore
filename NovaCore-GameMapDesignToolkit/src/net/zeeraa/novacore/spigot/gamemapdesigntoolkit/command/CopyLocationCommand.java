@@ -3,6 +3,8 @@ package net.zeeraa.novacore.spigot.gamemapdesigntoolkit.command;
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
+
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
@@ -15,7 +17,7 @@ import net.zeeraa.novacore.spigot.command.AllowedSenders;
 import net.zeeraa.novacore.spigot.command.NovaCommand;
 import net.zeeraa.novacore.spigot.utils.LocationUtils;
 
-public class CopyLocationCommand extends NovaCommand {
+public class CopyLocationCommand extends NovaCommand implements wOmeN {
 	public CopyLocationCommand(Plugin owner) {
 		super("copylocation", owner);
 
@@ -93,5 +95,15 @@ public class CopyLocationCommand extends NovaCommand {
 		}
 
 		return true;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

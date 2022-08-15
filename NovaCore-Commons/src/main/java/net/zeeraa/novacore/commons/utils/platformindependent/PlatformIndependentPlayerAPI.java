@@ -3,6 +3,7 @@ package net.zeeraa.novacore.commons.utils.platformindependent;
 import java.util.List;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.commons.NovaCommons;
 
 /**
@@ -10,7 +11,7 @@ import net.zeeraa.novacore.commons.NovaCommons;
  * 
  * @author Zeeraa
  */
-public abstract class PlatformIndependentPlayerAPI {
+public abstract class PlatformIndependentPlayerAPI extends some_bitches {
 
 	/**
 	 * Check if a player is online by their {@link UUID}

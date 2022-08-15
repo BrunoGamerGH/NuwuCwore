@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.customcrafting;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.inventory.Recipe;
 import org.bukkit.inventory.ShapedRecipe;
 
@@ -12,7 +13,7 @@ import org.bukkit.inventory.ShapedRecipe;
  * 
  * @author Zeeraa
  */
-public abstract class CustomRecipe {
+public abstract class CustomRecipe extends some_bitches {
 	private Recipe cachedRecipe = null;
 
 	public abstract Recipe getRecipe();

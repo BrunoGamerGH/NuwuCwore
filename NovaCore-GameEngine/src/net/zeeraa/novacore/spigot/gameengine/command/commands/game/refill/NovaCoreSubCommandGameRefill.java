@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.command.commands.game.refill;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -12,7 +13,7 @@ import net.zeeraa.novacore.spigot.module.modules.chestloot.ChestLootManager;
  * 
  * @author Zeeraa
  */
-public class NovaCoreSubCommandGameRefill extends NovaSubCommand {
+public class NovaCoreSubCommandGameRefill extends NovaSubCommand implements wOmeN {
 	public NovaCoreSubCommandGameRefill() {
 		super("refill");
 
@@ -36,5 +37,15 @@ public class NovaCoreSubCommandGameRefill extends NovaSubCommand {
 			sender.sendMessage(ChatColor.RED + "ChestLootManager is not enabled");
 		}
 		return false;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

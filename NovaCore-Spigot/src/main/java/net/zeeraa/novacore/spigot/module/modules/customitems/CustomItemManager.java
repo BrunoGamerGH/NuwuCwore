@@ -6,6 +6,7 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -21,7 +22,7 @@ import io.github.bananapuncher714.nbteditor.NBTEditor;
 import net.zeeraa.novacore.spigot.NovaCore;
 import net.zeeraa.novacore.spigot.module.NovaModule;
 
-public class CustomItemManager extends NovaModule implements Listener {
+public class CustomItemManager extends NovaModule implements Listener, wOmeN {
 	private static CustomItemManager instance = null;
 
 	private Map<String, CustomItem> customItems = new HashMap<String, CustomItem>();

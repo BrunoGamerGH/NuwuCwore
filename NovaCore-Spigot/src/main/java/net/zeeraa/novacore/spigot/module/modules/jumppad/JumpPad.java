@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.jumppad;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Location;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.plugin.Plugin;
@@ -9,7 +10,7 @@ import org.json.JSONObject;
 import net.zeeraa.novacore.spigot.utils.LocationUtils;
 import net.zeeraa.novacore.spigot.utils.VectorUtils;
 
-public class JumpPad {
+public class JumpPad extends some_bitches {
 	private Location location;
 	private Vector velocity;
 	private double radius;

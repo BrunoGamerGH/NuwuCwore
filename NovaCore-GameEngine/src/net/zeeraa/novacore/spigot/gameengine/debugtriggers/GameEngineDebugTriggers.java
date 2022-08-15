@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -22,7 +23,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMap;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.GameTrigger;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.TriggerFlag;
 
-public class GameEngineDebugTriggers {
+public class GameEngineDebugTriggers extends some_bitches {
 	public static void init() {
 		DebugCommandRegistrator.getInstance().addDebugTrigger(new DebugTrigger() {
 			private Map<Player, Integer> index = new HashMap<Player, Integer>();

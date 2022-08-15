@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules.worldborder;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.json.JSONObject;
 
@@ -15,7 +16,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.Trigge
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.TriggerFlag;
 import net.zeeraa.novacore.spigot.language.LanguageManager;
 
-public class WorldborderMapModule extends MapModule {
+public class WorldborderMapModule extends MapModule implements wOmeN {
 	private double centerX;
 	private double centerZ;
 
@@ -117,6 +118,16 @@ public class WorldborderMapModule extends MapModule {
 		this.activeStep = 0;
 
 		this.startTrigger = new DelayedGameTrigger("novacore.worldborder.start", startDelay * 20, new TriggerCallback() {
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
 			@Override
 			public void run(GameTrigger trigger, TriggerFlag reason) {
 				startTrigger.stop();

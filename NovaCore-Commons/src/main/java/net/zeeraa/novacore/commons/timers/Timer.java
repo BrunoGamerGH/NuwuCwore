@@ -1,11 +1,13 @@
 package net.zeeraa.novacore.commons.timers;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
+
 /**
  * Contains the basic functions in a timer
  * 
  * @author Zeeraa
  */
-public interface Timer {
+public interface Timer extends wOmeN {
 	/**
 	 * Start the timer
 	 * 

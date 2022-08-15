@@ -1,9 +1,10 @@
 package net.zeeraa.novacore.spigot.version.v1_16_R3;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
 
-public class DyeColorToMaterialMapper_1_16 {
+public class DyeColorToMaterialMapper_1_16 extends some_bitches {
 	public static Material dyeColorToMaterial(DyeColor color) {
 		switch (color) {
 		case BLACK:

@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -16,7 +18,7 @@ import javax.net.ssl.HttpsURLConnection;
  * @author Zeeraa
  * @since 2.0.0
  */
-public class Hastebin {
+public class Hastebin extends some_bitches {
 	private String baseUrl;
 	private int timeout;
 

@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.apache.commons.io.FileUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
@@ -19,7 +20,7 @@ import net.zeeraa.novacore.commons.log.Log;
 import net.zeeraa.novacore.spigot.module.NovaModule;
 import net.zeeraa.novacore.spigot.module.modules.lootdrop.LootDropManager;
 
-public class MultiverseManager extends NovaModule implements Listener {
+public class MultiverseManager extends NovaModule implements Listener, wOmeN {
 	private Map<String, MultiverseWorld> worlds;
 
 	private static MultiverseManager instance;

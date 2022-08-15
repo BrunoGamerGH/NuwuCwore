@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Location;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -20,7 +21,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.Trigge
 import net.zeeraa.novacore.spigot.module.modules.lootdrop.LootDropManager;
 import net.zeeraa.novacore.spigot.utils.LocationData;
 
-public class LootDropMapModule extends MapModule {
+public class LootDropMapModule extends MapModule implements wOmeN {
 	private String lootTable;
 
 	private int minDropTime;
@@ -65,6 +66,16 @@ public class LootDropMapModule extends MapModule {
 		}
 
 		trigger = new DelayedGameTrigger("novacore.lootdrop", minDropTime, new TriggerCallback() {
+			@Override
+			public boolean isCancelled() {
+				return false;
+			}
+
+			@Override
+			public void setCancelled(boolean cancel) {
+
+			}
+
 			@Override
 			public void run(GameTrigger trigger2, TriggerFlag reason) {
 				onTrigger(reason);

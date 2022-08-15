@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.mapselect
 
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.commons.log.Log;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.GameMapData;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.GameLobby;
@@ -12,7 +13,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.map.GameLo
  * 
  * @author Zeeraa
  */
-public abstract class LobbyMapSelector {
+public abstract class LobbyMapSelector extends some_bitches {
 	/**
 	 * Get a list with all maps
 	 * 

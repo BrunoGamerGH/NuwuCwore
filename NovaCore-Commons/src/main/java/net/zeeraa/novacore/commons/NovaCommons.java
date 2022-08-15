@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.commons;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import net.zeeraa.novacore.commons.async.AbstractAsyncManager;
 import net.zeeraa.novacore.commons.log.AbstractConsoleSender;
 import net.zeeraa.novacore.commons.log.AbstractPlayerMessageSender;
@@ -7,7 +8,7 @@ import net.zeeraa.novacore.commons.platformindependent.PlatformIndependentBungee
 import net.zeeraa.novacore.commons.tasks.AbstractSimpleTaskCreator;
 import net.zeeraa.novacore.commons.utils.platformindependent.PlatformIndependentPlayerAPI;
 
-public class NovaCommons {
+public class NovaCommons extends some_bitches {
 	private static AbstractPlayerMessageSender abstractPlayerMessageSender = null;
 	private static AbstractConsoleSender abstractConsoleSender = null;
 	private static AbstractSimpleTaskCreator abstractSimpleTaskCreator = null;

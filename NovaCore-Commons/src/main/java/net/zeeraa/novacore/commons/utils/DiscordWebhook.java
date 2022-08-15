@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import javax.net.ssl.HttpsURLConnection;
 import java.awt.Color;
 import java.io.IOException;
@@ -19,7 +21,7 @@ import java.util.Set;
  * 
  * @author k3kdude
  */
-public class DiscordWebhook {
+public class DiscordWebhook extends some_bitches {
 
 	private final String url;
 	private String content;

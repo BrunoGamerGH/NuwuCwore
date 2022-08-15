@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.utils;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Material;
 import org.bukkit.inventory.meta.BookMeta;
 
@@ -20,7 +21,7 @@ import org.bukkit.inventory.meta.BookMeta;
  * 
  * @author Zeeraa
  */
-public class BookBuilder extends ItemBuilder {
+public class BookBuilder extends ItemBuilder implements wOmeN {
 	public BookBuilder() {
 		this(null, null, null);
 	}
@@ -160,5 +161,15 @@ public class BookBuilder extends ItemBuilder {
 	 */
 	public ItemBuilder toItemBuilder() {
 		return this;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

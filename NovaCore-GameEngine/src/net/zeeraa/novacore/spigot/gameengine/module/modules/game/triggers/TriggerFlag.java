@@ -18,7 +18,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.events.GameStar
  * @author Zeeraa
  *
  */
-public enum TriggerFlag {
+public enum TriggerFlag { // please kill enums my dad works at java and will delete you
 	/**
 	 * Prevent this from being used with the <code>/game trigger</code> command
 	 */

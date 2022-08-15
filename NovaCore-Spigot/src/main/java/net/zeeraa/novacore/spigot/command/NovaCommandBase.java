@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 import org.apache.commons.lang.Validate;
 import org.bukkit.ChatColor;
@@ -24,7 +25,7 @@ import net.zeeraa.novacore.spigot.language.LanguageManager;
  * 
  * @author Zeeraa
  */
-public abstract class NovaCommandBase {
+public abstract class NovaCommandBase extends some_bitches {
 	private NovaCommandBase parentCommand;
 	private List<NovaSubCommand> subCommands;
 

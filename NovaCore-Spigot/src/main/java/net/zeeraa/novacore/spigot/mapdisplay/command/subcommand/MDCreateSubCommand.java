@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.mapdisplay.command.subcommand;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -16,7 +17,7 @@ import net.zeeraa.novacore.spigot.mapdisplay.MapDisplay;
 import net.zeeraa.novacore.spigot.mapdisplay.MapDisplayManager;
 import net.zeeraa.novacore.spigot.mapdisplay.MapDisplayNameAlreadyExistsException;
 
-public class MDCreateSubCommand extends NovaSubCommand {
+public class MDCreateSubCommand extends NovaSubCommand implements wOmeN {
 
 	public MDCreateSubCommand() {
 		super("create");

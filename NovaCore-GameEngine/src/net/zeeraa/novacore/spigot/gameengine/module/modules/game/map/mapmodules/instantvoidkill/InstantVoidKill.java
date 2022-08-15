@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules.instantvoidkill;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.json.JSONObject;
@@ -11,7 +12,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.Game;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule.MapModule;
 import net.zeeraa.novacore.spigot.tasks.SimpleTask;
 
-public class InstantVoidKill extends MapModule {
+public class InstantVoidKill extends MapModule implements wOmeN {
 	private Task taks;
 
 	private int y;

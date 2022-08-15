@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.commons.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -16,7 +18,7 @@ import java.util.List;
  * @author www.quickprogrammingtips.com
  *
  */
-public class ASCIIArtGenerator {
+public class ASCIIArtGenerator extends some_bitches {
 
 	public static final int ART_SIZE_SMALL = 12;
 	public static final int ART_SIZE_MEDIUM = 18;

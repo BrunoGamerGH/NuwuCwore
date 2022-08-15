@@ -3,10 +3,11 @@ package net.zeeraa.novacore.spigot.abstraction;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Chunk;
 import org.bukkit.event.Listener;
 
-public abstract class ChunkLoader implements Listener {
+public abstract class ChunkLoader extends some_bitches implements Listener {
 	protected List<Chunk> chunks;
 	
 	public static ChunkLoader getInstance() {

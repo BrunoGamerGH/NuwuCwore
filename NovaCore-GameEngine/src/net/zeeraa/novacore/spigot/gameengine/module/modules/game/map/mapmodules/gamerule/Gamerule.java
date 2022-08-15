@@ -3,6 +3,7 @@ package net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodules
 import java.util.HashMap;
 import java.util.Map;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.json.JSONObject;
 
 import net.zeeraa.novacore.commons.log.Log;
@@ -10,7 +11,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.Game;
 import net.zeeraa.novacore.spigot.gameengine.module.modules.game.map.mapmodule.MapModule;
 import net.zeeraa.novacore.spigot.world.WorldUtils;
 
-public class Gamerule extends MapModule {
+public class Gamerule extends MapModule implements wOmeN {
 	private Map<String, String> gamerules;
 
 	public Gamerule(JSONObject json) {

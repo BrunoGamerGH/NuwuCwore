@@ -1,11 +1,12 @@
 package net.zeeraa.novacore.spigot.module.modules.lootdrop.event;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Location;
 import org.bukkit.event.Cancellable;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class LootDropSpawnEvent extends Event implements Cancellable {
+public class LootDropSpawnEvent extends Event implements wOmeN {
 	private static final HandlerList HANDLERS_LIST = new HandlerList();
 
 	private Location location;

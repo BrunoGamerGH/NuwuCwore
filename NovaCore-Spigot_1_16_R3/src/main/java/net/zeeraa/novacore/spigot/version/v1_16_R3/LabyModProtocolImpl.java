@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.version.v1_16_R3;
 
 import java.nio.charset.Charset;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.craftbukkit.v1_16_R3.entity.CraftPlayer;
 import org.bukkit.entity.Player;
 
@@ -16,7 +17,7 @@ import net.minecraft.server.v1_16_R3.PacketDataSerializer;
 import net.minecraft.server.v1_16_R3.PacketPlayOutCustomPayload;
 import net.zeeraa.novacore.spigot.abstraction.LabyModProtocol;
 
-public class LabyModProtocolImpl extends LabyModProtocol {
+public class LabyModProtocolImpl extends LabyModProtocol implements wOmeN {
 	/**
 	 * Send a message to LabyMod
 	 * 

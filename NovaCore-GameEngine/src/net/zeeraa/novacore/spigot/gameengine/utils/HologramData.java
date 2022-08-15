@@ -2,6 +2,7 @@ package net.zeeraa.novacore.spigot.gameengine.utils;
 
 import java.util.List;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.World;
 
 import com.gmail.filoghost.holographicdisplays.api.Hologram;
@@ -15,7 +16,7 @@ import net.zeeraa.novacore.spigot.utils.LocationData;
  * 
  * @author Zeeraa
  */
-public class HologramData {
+public class HologramData extends some_bitches {
 	private List<String> lines;
 	private LocationData location;
 	private Hologram hologram;

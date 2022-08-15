@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.tasks;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitScheduler;
@@ -14,7 +15,7 @@ import net.zeeraa.novacore.spigot.NovaCore;
  * 
  * @author Anton
  */
-public class SimpleTask extends Task {
+public class SimpleTask extends Task implements wOmeN {
 	protected Runnable runnable;
 	protected Plugin plugin;
 	protected long delay;

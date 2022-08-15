@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.module.modules.gui.callbacks;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.entity.HumanEntity;
 import org.bukkit.event.inventory.InventoryAction;
 import org.bukkit.event.inventory.InventoryType.SlotType;
@@ -12,7 +13,7 @@ import net.zeeraa.novacore.spigot.module.modules.gui.GUIAction;
  * 
  * @author Zeeraa
  */
-public interface GUIClickCallback {
+public interface GUIClickCallback extends wOmeN {
 	/**
 	 * Called when someone clicks a GUI. The return value is used to either allow or
 	 * deny the interaction

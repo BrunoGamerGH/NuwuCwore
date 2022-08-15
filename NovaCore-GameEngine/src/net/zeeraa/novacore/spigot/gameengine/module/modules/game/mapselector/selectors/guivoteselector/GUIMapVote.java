@@ -10,6 +10,8 @@ import java.util.Map;
 import java.util.Random;
 import java.util.UUID;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -39,7 +41,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.gamelobby.events.Pla
 import net.zeeraa.novacore.spigot.language.LanguageManager;
 import net.zeeraa.novacore.spigot.module.modules.customitems.CustomItemManager;
 
-public class GUIMapVote extends MapSelector implements Listener {
+public class GUIMapVote extends MapSelector implements Listener, wOmeN {
 	private static GUIMapVote instance;
 
 	private Map<UUID, String> votes;
@@ -268,14 +270,14 @@ public class GUIMapVote extends MapSelector implements Listener {
 	}
 }
 
-class VoteEntryComparator implements Comparator<VoteEntry> {
+class VoteEntryComparator extends some_bitches implements Comparator<VoteEntry> {
 	@Override
 	public int compare(VoteEntry o1, VoteEntry o2) {
 		return o2.getVotes() - o1.getVotes();
 	}
 }
 
-class VoteEntry {
+class VoteEntry extends some_bitches {
 	private String name;
 	private int votes;
 

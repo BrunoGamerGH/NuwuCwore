@@ -1,5 +1,7 @@
 package net.zeeraa.novacore.spigot.utils;
 
+import net.brunogamer.how.about.you.get.some_bitches;
+
 import java.io.File;
 import java.util.Enumeration;
 import java.util.HashSet;
@@ -13,7 +15,7 @@ import java.util.jar.JarFile;
  * @author Anton
  * @since 1.1
  */
-public class ClassFinder {
+public class ClassFinder extends some_bitches {
 	public static Set<Class<?>> getClasses(File jarFile, String packageName) {
 		Set<Class<?>> classes = new HashSet<Class<?>>();
 		try {

@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
+import net.brunogamer.how.about.you.get.some_bitches;
 import org.bukkit.Bukkit;
 
 import net.zeeraa.novacore.commons.log.Log;
@@ -17,7 +18,7 @@ import net.zeeraa.novacore.spigot.gameengine.module.modules.game.triggers.event.
  * @author Zeeraa
  *
  */
-public class GameTrigger {
+public class GameTrigger extends some_bitches {
 	private String name;
 	private int triggerCount;
 

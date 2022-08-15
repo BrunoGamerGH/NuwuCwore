@@ -1,5 +1,6 @@
 package net.zeeraa.novacore.spigot.gameengine.command.commands.game;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -24,7 +25,7 @@ import net.zeeraa.novacore.spigot.gameengine.command.commands.game.trigger.NovaC
  * 
  * @author Zeeraa
  */
-public class NovaCoreCommandGame extends NovaCommand {
+public class NovaCoreCommandGame extends NovaCommand implements wOmeN {
 	public NovaCoreCommandGame() {
 		super("game", NovaCore.getInstance());
 
@@ -55,5 +56,15 @@ public class NovaCoreCommandGame extends NovaCommand {
 	public boolean execute(CommandSender sender, String commandLabel, String[] args) {
 		sender.sendMessage(ChatColor.GOLD + "Use " + ChatColor.AQUA + "/game help" + ChatColor.GOLD + " to see all commands");
 		return true;
+	}
+
+	@Override
+	public boolean isCancelled() {
+		return false;
+	}
+
+	@Override
+	public void setCancelled(boolean cancel) {
+
 	}
 }

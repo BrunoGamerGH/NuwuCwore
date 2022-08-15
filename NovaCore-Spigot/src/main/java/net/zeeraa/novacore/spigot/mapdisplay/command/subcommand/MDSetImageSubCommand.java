@@ -8,6 +8,7 @@ import java.util.List;
 
 import javax.imageio.ImageIO;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.PermissionDefault;
@@ -18,7 +19,7 @@ import net.zeeraa.novacore.spigot.command.NovaSubCommand;
 import net.zeeraa.novacore.spigot.mapdisplay.MapDisplay;
 import net.zeeraa.novacore.spigot.mapdisplay.MapDisplayManager;
 
-public class MDSetImageSubCommand extends NovaSubCommand {
+public class MDSetImageSubCommand extends NovaSubCommand implements wOmeN {
 	public static final int IMAGE_FETCH_TIMEOUT = 10000;
 
 	public MDSetImageSubCommand() {

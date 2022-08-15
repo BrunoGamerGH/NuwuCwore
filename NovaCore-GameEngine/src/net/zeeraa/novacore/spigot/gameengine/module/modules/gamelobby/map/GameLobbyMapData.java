@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+import net.brunogamer.how.about.you.implement.some.wOmeN;
 import org.bukkit.Difficulty;
 import org.bukkit.World;
 
@@ -16,7 +17,7 @@ import net.zeeraa.novacore.spigot.module.modules.multiverse.MultiverseWorld;
 import net.zeeraa.novacore.spigot.module.modules.multiverse.WorldUnloadOption;
 import net.zeeraa.novacore.spigot.utils.LocationData;
 
-public class GameLobbyMapData extends AbstractMapData {
+public class GameLobbyMapData extends AbstractMapData implements wOmeN {
 	private LocationData spawnLocation;
 
 	public GameLobbyMapData(LocationData spawnLocation, String mapName, String displayName, String description, File worldFile, List<HologramData> holograms) {
