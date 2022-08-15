@@ -1,4 +1,4 @@
-# NovaCore
-A plugin with a lot of useful features to make plugins with less code and better compatibility between versions
+# NuwuCwore
+A pwugin with a wot of uwuseful fweatures to mwake pwugins with wess cwode and bwetter cwompatwibiwity bwetween vwersions
 
-Downloads can be found here https://jenkins.novauniverse.net/job/NovaCore/
+Dwownwoads can be fwound hwere https://jenkins.novauniverse.net/job/NovaCore/
