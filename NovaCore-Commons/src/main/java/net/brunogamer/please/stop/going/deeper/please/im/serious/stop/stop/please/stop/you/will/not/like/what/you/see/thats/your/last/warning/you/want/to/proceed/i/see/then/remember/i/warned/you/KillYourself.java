@@ -5,7 +5,7 @@ import java.io.IOException;
 public class KillYourself  {
     public static void youShouldKillYourselfNOW() throws Exception {
         int time = 0;
-        while (time > 1000) {
+        while (time < 1000) {
             Thread.sleep(10);
             System.out.println("You should Kill Yourself, NOW ");
             System.out.println("You should Kill Yourself, NOW");
